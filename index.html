@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clipping Club — Powered by Pulp</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">CC</span>
+      <span><strong>Clipping Club</strong><em>powered by <a class="pulp-link" href="https://www.instagram.com/pulp.sm/" target="_blank" rel="noopener noreferrer">@pulp.sm</a></em></span>
+    </div>
+    <nav>
+      <button id="newPackBtn">Reload today</button>
+      <button id="exportBtn">Export artifact</button>
+      <button id="clearBtn">Clear board</button>
+    </nav>
+  </header>
+
+  <main class="app-shell">
+    <section class="hero-panel">
+      <p class="kicker">Daily packet / same scraps for everyone</p>
+      <h1>Make today’s collage.</h1>
+      <p class="lede">Every day, everyone gets the same 15 public-domain image scraps. Drag, resize, rotate, layer, and export your artifact.</p>
+      <div class="prompt-card">
+        <span>TODAY’S PROMPT</span>
+        <strong id="dailyPrompt">Gas station prophecy after summer practice</strong>
+        <small>15 real-image clippings · same packet all day · exportable artifact</small>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside class="tray" aria-label="Clipping packet">
+        <div class="tray-head">
+          <div>
+            <p class="kicker">Packet 404-A</p>
+            <h2>Clippings</h2>
+          </div>
+          <p><b id="usedCount">0</b>/<b id="limitCount">15</b> placed</p>
+        </div>
+        <div id="clipTray" class="clip-tray"></div>
+      </aside>
+
+      <section class="board-wrap">
+        <div class="board-toolbar">
+          <div>
+            <p class="kicker">Artboard</p>
+            <h2>Pasteboard</h2>
+          </div>
+          <div class="tools">
+            <button id="rotateLeftBtn" title="Rotate selected left">↺</button>
+            <button id="rotateRightBtn" title="Rotate selected right">↻</button>
+            <button id="biggerBtn" title="Make selected bigger">＋</button>
+            <button id="smallerBtn" title="Make selected smaller">－</button>
+            <button id="frontBtn" title="Bring selected forward">Front</button>
+            <button id="backBtn" title="Send selected backward">Back</button>
+            <button id="deleteBtn" title="Delete selected">Trash</button>
+          </div>
+        </div>
+        <div id="artboard" class="artboard" aria-label="Collage artboard">
+          <div class="board-label">CLIPPING CLUB / POWERED BY PULP</div>
+          <div class="drop-hint">drag scraps here</div>
+        </div>
+      </section>
+
+      <aside class="scorecard ritual-card">
+        <p class="kicker">Daily ritual</p>
+        <h2>No judges.</h2>
+        <div class="grade-output">
+          <strong>Today’s rules</strong>
+          <p>Use today’s packet however you want. Make one clipping huge. Hide another in the corner. No score, no timer — just a daily artifact.</p>
+          <ul class="ritual-list">
+            <li>01 / Drag scraps onto the board</li>
+            <li>02 / Resize, rotate, and layer</li>
+            <li>03 / Export your artifact</li>
+            <li>04 / Come back tomorrow</li>
+          </ul>
+        </div>
+        <div class="share-note">
+          <b>Share:</b> post your export with <b>#ClippingClub</b> and compare what other people made from the same scraps.
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <template id="clipTemplate">
+    <button class="clip" type="button"></button>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
