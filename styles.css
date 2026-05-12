@@ -111,3 +111,14 @@ body:after{content:"DAILY CUT UP / SCAN IT BADLY / POST IT ANYWAY / ";position:f
 @media(max-width:720px){.tools{grid-template-columns:repeat(7,1fr)}.tools button{font-size:.52rem}}
 
 .pulp-link{color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:2px}.pulp-link:hover{color:var(--orange)}
+
+/* Mobile header overflow fix */
+@media(max-width:720px){
+  .topbar{width:100%;max-width:100vw;overflow:hidden}
+  .brand{min-width:0;max-width:100%;gap:.48rem;align-items:center}
+  .brand > div{min-width:0;max-width:calc(100vw - 92px)}
+  .brand-mark{flex:0 0 38px}
+  .brand strong{font-size:.78rem;line-height:.88;letter-spacing:-.045em;white-space:normal;overflow-wrap:anywhere}
+  .brand em{font-size:.54rem;line-height:1.05;white-space:normal;overflow-wrap:anywhere}
+  .pulp-link{overflow-wrap:anywhere}
+}
