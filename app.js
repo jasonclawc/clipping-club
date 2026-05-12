@@ -531,4 +531,3 @@ async function drawImagePiece(ctx, p, sx){
 }
 document.getElementById('exportBtn').onclick = exportPNG;
 renderTray();
-seedStarterPieces();
