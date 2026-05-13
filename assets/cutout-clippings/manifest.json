@@ -1,0 +1,320 @@
+[
+  {
+    "file": "assets/cutout-clippings/aic-102777-abigail-chesebrough-mrs-alexander-grant.png",
+    "sourceFile": "assets/real-clippings/aic-102777-abigail-chesebrough-mrs-alexander-grant.png",
+    "alphaRatio": 0.406,
+    "bboxArea": 0.808
+  },
+  {
+    "file": "assets/cutout-clippings/aic-10410-tazza.png",
+    "sourceFile": "assets/real-clippings/aic-10410-tazza.png",
+    "alphaRatio": 0.25,
+    "bboxArea": 0.414
+  },
+  {
+    "file": "assets/cutout-clippings/aic-106279-garniture-for-field-and-foot-tourney-at-the-barriers.png",
+    "sourceFile": "assets/real-clippings/aic-106279-garniture-for-field-and-foot-tourney-at-the-barriers.png",
+    "alphaRatio": 0.431,
+    "bboxArea": 0.721
+  },
+  {
+    "file": "assets/cutout-clippings/aic-111-martin-vanden-bogaert-desjardins.png",
+    "sourceFile": "assets/real-clippings/aic-111-martin-vanden-bogaert-desjardins.png",
+    "alphaRatio": 0.523,
+    "bboxArea": 0.879
+  },
+  {
+    "file": "assets/cutout-clippings/aic-11344-sadie-pfeifer-a-cotton-mill-spinner-lancaster-south-.png",
+    "sourceFile": "assets/real-clippings/aic-11344-sadie-pfeifer-a-cotton-mill-spinner-lancaster-south-.png",
+    "alphaRatio": 0.115,
+    "bboxArea": 0.806
+  },
+  {
+    "file": "assets/cutout-clippings/aic-120154-still-life-strawberries-nuts-c.png",
+    "sourceFile": "assets/real-clippings/aic-120154-still-life-strawberries-nuts-c.png",
+    "alphaRatio": 0.39,
+    "bboxArea": 0.884
+  },
+  {
+    "file": "assets/cutout-clippings/aic-126336-captain-verschoyle-grenadier-guards-an-early-photogr.png",
+    "sourceFile": "assets/real-clippings/aic-126336-captain-verschoyle-grenadier-guards-an-early-photogr.png",
+    "alphaRatio": 0.319,
+    "bboxArea": 0.796
+  },
+  {
+    "file": "assets/cutout-clippings/aic-13598-aristide-bruant.png",
+    "sourceFile": "assets/real-clippings/aic-13598-aristide-bruant.png",
+    "alphaRatio": 0.268,
+    "bboxArea": 0.789
+  },
+  {
+    "file": "assets/cutout-clippings/aic-143683-handkerchief.png",
+    "sourceFile": "assets/real-clippings/aic-143683-handkerchief.png",
+    "alphaRatio": 0.495,
+    "bboxArea": 0.728
+  },
+  {
+    "file": "assets/cutout-clippings/aic-156596-fruit-piece.png",
+    "sourceFile": "assets/real-clippings/aic-156596-fruit-piece.png",
+    "alphaRatio": 0.622,
+    "bboxArea": 0.819
+  },
+  {
+    "file": "assets/cutout-clippings/aic-160160-dance-skirt-photographed-with-apron.png",
+    "sourceFile": "assets/real-clippings/aic-160160-dance-skirt-photographed-with-apron.png",
+    "alphaRatio": 0.51,
+    "bboxArea": 0.731
+  },
+  {
+    "file": "assets/cutout-clippings/aic-19-view-of-ponte-lugano-on-the-anio-from-views-of-rome.png",
+    "sourceFile": "assets/real-clippings/aic-19-view-of-ponte-lugano-on-the-anio-from-views-of-rome.png",
+    "alphaRatio": 0.457,
+    "bboxArea": 0.873
+  },
+  {
+    "file": "assets/cutout-clippings/aic-19333-kitchen-still-life.png",
+    "sourceFile": "assets/real-clippings/aic-19333-kitchen-still-life.png",
+    "alphaRatio": 0.428,
+    "bboxArea": 0.726
+  },
+  {
+    "file": "assets/cutout-clippings/aic-20-it-rocks-but-is-not-sunk.png",
+    "sourceFile": "assets/real-clippings/aic-20-it-rocks-but-is-not-sunk.png",
+    "alphaRatio": 0.556,
+    "bboxArea": 0.818
+  },
+  {
+    "file": "assets/cutout-clippings/aic-213791-new-patented-umbrella-with-an-improved-spring-system.png",
+    "sourceFile": "assets/real-clippings/aic-213791-new-patented-umbrella-with-an-improved-spring-system.png",
+    "alphaRatio": 0.512,
+    "bboxArea": 0.538
+  },
+  {
+    "file": "assets/cutout-clippings/aic-215528-street-advertising.png",
+    "sourceFile": "assets/real-clippings/aic-215528-street-advertising.png",
+    "alphaRatio": 0.326,
+    "bboxArea": 0.782
+  },
+  {
+    "file": "assets/cutout-clippings/aic-234687-tureen.png",
+    "sourceFile": "assets/real-clippings/aic-234687-tureen.png",
+    "alphaRatio": 0.322,
+    "bboxArea": 0.577
+  },
+  {
+    "file": "assets/cutout-clippings/aic-24-portrait-of-edouard-mol.png",
+    "sourceFile": "assets/real-clippings/aic-24-portrait-of-edouard-mol.png",
+    "alphaRatio": 0.314,
+    "bboxArea": 0.797
+  },
+  {
+    "file": "assets/cutout-clippings/aic-24320-collar-made-from-border.png",
+    "sourceFile": "assets/real-clippings/aic-24320-collar-made-from-border.png",
+    "alphaRatio": 0.512,
+    "bboxArea": 0.749
+  },
+  {
+    "file": "assets/cutout-clippings/aic-25865-the-herring-net.png",
+    "sourceFile": "assets/real-clippings/aic-25865-the-herring-net.png",
+    "alphaRatio": 0.195,
+    "bboxArea": 0.588
+  },
+  {
+    "file": "assets/cutout-clippings/aic-27-remembrance-of-italy.png",
+    "sourceFile": "assets/real-clippings/aic-27-remembrance-of-italy.png",
+    "alphaRatio": 0.383,
+    "bboxArea": 0.712
+  },
+  {
+    "file": "assets/cutout-clippings/aic-27047-a-scene-in-york-york-minster-from-lop-lane.png",
+    "sourceFile": "assets/real-clippings/aic-27047-a-scene-in-york-york-minster-from-lop-lane.png",
+    "alphaRatio": 0.31,
+    "bboxArea": 0.333
+  },
+  {
+    "file": "assets/cutout-clippings/aic-31707-general-george-armstrong-custer.png",
+    "sourceFile": "assets/real-clippings/aic-31707-general-george-armstrong-custer.png",
+    "alphaRatio": 0.089,
+    "bboxArea": 0.176
+  },
+  {
+    "file": "assets/cutout-clippings/aic-34078-food-container.png",
+    "sourceFile": "assets/real-clippings/aic-34078-food-container.png",
+    "alphaRatio": 0.348,
+    "bboxArea": 0.488
+  },
+  {
+    "file": "assets/cutout-clippings/aic-37423-covered-food-container.png",
+    "sourceFile": "assets/real-clippings/aic-37423-covered-food-container.png",
+    "alphaRatio": 0.279,
+    "bboxArea": 0.427
+  },
+  {
+    "file": "assets/cutout-clippings/aic-4749-mrs-george-swinton-elizabeth-ebsworth.png",
+    "sourceFile": "assets/real-clippings/aic-4749-mrs-george-swinton-elizabeth-ebsworth.png",
+    "alphaRatio": 0.312,
+    "bboxArea": 0.85
+  },
+  {
+    "file": "assets/cutout-clippings/aic-55833-covered-food-container.png",
+    "sourceFile": "assets/real-clippings/aic-55833-covered-food-container.png",
+    "alphaRatio": 0.351,
+    "bboxArea": 0.546
+  },
+  {
+    "file": "assets/cutout-clippings/aic-60294-new-york-street.png",
+    "sourceFile": "assets/real-clippings/aic-60294-new-york-street.png",
+    "alphaRatio": 0.08,
+    "bboxArea": 0.69
+  },
+  {
+    "file": "assets/cutout-clippings/aic-65-fishing-craft-near-the-cliffs-at-collioure.png",
+    "sourceFile": "assets/real-clippings/aic-65-fishing-craft-near-the-cliffs-at-collioure.png",
+    "alphaRatio": 0.214,
+    "bboxArea": 0.649
+  },
+  {
+    "file": "assets/cutout-clippings/aic-66489-georgia-o-keeffe-torso.png",
+    "sourceFile": "assets/real-clippings/aic-66489-georgia-o-keeffe-torso.png",
+    "alphaRatio": 0.434,
+    "bboxArea": 0.829
+  },
+  {
+    "file": "assets/cutout-clippings/aic-7934-platter.png",
+    "sourceFile": "assets/real-clippings/aic-7934-platter.png",
+    "alphaRatio": 0.528,
+    "bboxArea": 0.69
+  },
+  {
+    "file": "assets/cutout-clippings/aic-81561-street-in-moret.png",
+    "sourceFile": "assets/real-clippings/aic-81561-street-in-moret.png",
+    "alphaRatio": 0.221,
+    "bboxArea": 0.665
+  },
+  {
+    "file": "assets/cutout-clippings/aic-88629-reine-de-joie.png",
+    "sourceFile": "assets/real-clippings/aic-88629-reine-de-joie.png",
+    "alphaRatio": 0.399,
+    "bboxArea": 0.851
+  },
+  {
+    "file": "assets/cutout-clippings/aic-9-interior-of-st-mark-s-venice.png",
+    "sourceFile": "assets/real-clippings/aic-9-interior-of-st-mark-s-venice.png",
+    "alphaRatio": 0.364,
+    "bboxArea": 0.85
+  },
+  {
+    "file": "assets/cutout-clippings/aic-97907-a-mexican-vaquero.png",
+    "sourceFile": "assets/real-clippings/aic-97907-a-mexican-vaquero.png",
+    "alphaRatio": 0.192,
+    "bboxArea": 0.482
+  },
+  {
+    "file": "assets/cutout-clippings/aic-97912-the-mexican-major.png",
+    "sourceFile": "assets/real-clippings/aic-97912-the-mexican-major.png",
+    "alphaRatio": 0.463,
+    "bboxArea": 0.901
+  },
+  {
+    "file": "assets/cutout-clippings/met-13722-memorial-to-salome-and-moses-brown.png",
+    "sourceFile": "assets/real-clippings/met-13722-memorial-to-salome-and-moses-brown.png",
+    "alphaRatio": 0.51,
+    "bboxArea": 0.639
+  },
+  {
+    "file": "assets/cutout-clippings/met-14298-clock.png",
+    "sourceFile": "assets/real-clippings/met-14298-clock.png",
+    "alphaRatio": 0.174,
+    "bboxArea": 0.31
+  },
+  {
+    "file": "assets/cutout-clippings/met-20519-brooch.png",
+    "sourceFile": "assets/real-clippings/met-20519-brooch.png",
+    "alphaRatio": 0.09,
+    "bboxArea": 0.257
+  },
+  {
+    "file": "assets/cutout-clippings/met-20522-ring.png",
+    "sourceFile": "assets/real-clippings/met-20522-ring.png",
+    "alphaRatio": 0.079,
+    "bboxArea": 0.105
+  },
+  {
+    "file": "assets/cutout-clippings/met-39-advertisement-for-norwich-stone-ware-factory.png",
+    "sourceFile": "assets/real-clippings/met-39-advertisement-for-norwich-stone-ware-factory.png",
+    "alphaRatio": 0.831,
+    "bboxArea": 0.915
+  },
+  {
+    "file": "assets/cutout-clippings/met-433565-poster-for-raynaud-fr-res.png",
+    "sourceFile": "assets/real-clippings/met-433565-poster-for-raynaud-fr-res.png",
+    "alphaRatio": 0.705,
+    "bboxArea": 0.813
+  },
+  {
+    "file": "assets/cutout-clippings/met-548246-viscera-figure-with-human-head-imseti.png",
+    "sourceFile": "assets/real-clippings/met-548246-viscera-figure-with-human-head-imseti.png",
+    "alphaRatio": 0.135,
+    "bboxArea": 0.245
+  },
+  {
+    "file": "assets/cutout-clippings/met-550814-viscera-figure-with-human-head-imseti.png",
+    "sourceFile": "assets/real-clippings/met-550814-viscera-figure-with-human-head-imseti.png",
+    "alphaRatio": 0.354,
+    "bboxArea": 0.756
+  },
+  {
+    "file": "assets/cutout-clippings/met-570751-package-of-disorganized-animal-remains-adorned-with-.png",
+    "sourceFile": "assets/real-clippings/met-570751-package-of-disorganized-animal-remains-adorned-with-.png",
+    "alphaRatio": 0.249,
+    "bboxArea": 0.391
+  },
+  {
+    "file": "assets/cutout-clippings/met-577416-viscera-figure-with-baboon-head-hapy.png",
+    "sourceFile": "assets/real-clippings/met-577416-viscera-figure-with-baboon-head-hapy.png",
+    "alphaRatio": 0.354,
+    "bboxArea": 0.756
+  },
+  {
+    "file": "assets/cutout-clippings/met-577417-viscera-figure-with-jackal-head-duamutef.png",
+    "sourceFile": "assets/real-clippings/met-577417-viscera-figure-with-jackal-head-duamutef.png",
+    "alphaRatio": 0.354,
+    "bboxArea": 0.756
+  },
+  {
+    "file": "assets/cutout-clippings/met-577418-viscera-figure-with-falcoln-head-qebehsenuef.png",
+    "sourceFile": "assets/real-clippings/met-577418-viscera-figure-with-falcoln-head-qebehsenuef.png",
+    "alphaRatio": 0.354,
+    "bboxArea": 0.756
+  },
+  {
+    "file": "assets/cutout-clippings/met-577422-viscera-figure-with-baboon-head-hapy.png",
+    "sourceFile": "assets/real-clippings/met-577422-viscera-figure-with-baboon-head-hapy.png",
+    "alphaRatio": 0.13,
+    "bboxArea": 0.226
+  },
+  {
+    "file": "assets/cutout-clippings/met-577423-viscera-figure-with-jackal-head-duamutef.png",
+    "sourceFile": "assets/real-clippings/met-577423-viscera-figure-with-jackal-head-duamutef.png",
+    "alphaRatio": 0.127,
+    "bboxArea": 0.229
+  },
+  {
+    "file": "assets/cutout-clippings/met-577428-viscera-figure-with-baboon-head-hapy.png",
+    "sourceFile": "assets/real-clippings/met-577428-viscera-figure-with-baboon-head-hapy.png",
+    "alphaRatio": 0.091,
+    "bboxArea": 0.185
+  },
+  {
+    "file": "assets/cutout-clippings/met-577430-viscera-figure-with-falcon-head-qebehsenuef.png",
+    "sourceFile": "assets/real-clippings/met-577430-viscera-figure-with-falcon-head-qebehsenuef.png",
+    "alphaRatio": 0.081,
+    "bboxArea": 0.132
+  },
+  {
+    "file": "assets/cutout-clippings/met-786300-buzz-aldrin-on-the-moon-with-components-of-the-early.png",
+    "sourceFile": "assets/real-clippings/met-786300-buzz-aldrin-on-the-moon-with-components-of-the-early.png",
+    "alphaRatio": 0.602,
+    "bboxArea": 0.9
+  }
+]

@@ -150,3 +150,31 @@ body:after{content:"DAILY CUT UP / SCAN IT BADLY / POST IT ANYWAY / ";position:f
   filter:grayscale(.03) contrast(1.08) saturate(1.02)!important;
 }
 .image-piece.selected .cut-wrap{outline:2px dashed var(--orange);outline-offset:6px}
+
+
+/* True PNG cutout mode — organic alpha edges from the image assets */
+.image-piece .cut-wrap{
+  position:absolute;
+  inset:0;
+  padding:0!important;
+  background:transparent!important;
+  clip-path:none!important;
+  filter:drop-shadow(7px 8px 0 rgba(18,16,13,.58))!important;
+  box-shadow:none!important;
+}
+.image-piece .cut-wrap:before,
+.image-piece .cut-wrap:after,
+.image-piece[data-tape="1"]:before,
+.image-piece[data-pin="1"]:after{display:none!important}
+.image-piece .cut-wrap img,
+.image-piece[data-backing-type] .cut-wrap img{
+  width:100%;
+  height:100%;
+  object-fit:contain!important;
+  display:block;
+  clip-path:none!important;
+  border:0!important;
+  background:transparent!important;
+  filter:saturate(1.04) contrast(1.05)!important;
+}
+.image-piece.selected .cut-wrap{outline:2px dashed var(--orange);outline-offset:6px}
