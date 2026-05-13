@@ -261,12 +261,19 @@ function backingPolygon(){
   return pts.map(([x,y]) => `${Math.max(-8, Math.min(108,x)).toFixed(1)}% ${Math.max(-8, Math.min(108,y)).toFixed(1)}%`).join(', ');
 }
 
+function randomPlacementRotation(){
+  // Keep new PNG cutouts feeling handmade: varied, but not upside-down.
+  // Avoid the dead-looking near-zero rotations that made pieces feel repeated.
+  const magnitude = 4 + Math.random() * 24;
+  return Math.round((Math.random() < 0.5 ? -1 : 1) * magnitude);
+}
+
 function addPiece(clip, sourceBtn){
   if(boardPieces.length >= LIMIT || sourceBtn.classList.contains('used')) return;
   const piece = document.createElement('div');
   const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now()+Math.random());
   const scale = 0.55 + Math.random() * 0.38;
-  const rot = Math.round(-16 + Math.random() * 32);
+  const rot = randomPlacementRotation();
   const x = 60 + Math.random() * Math.max(80, artboard.clientWidth - 220);
   const y = 80 + Math.random() * Math.max(80, artboard.clientHeight - 240);
   piece.className = 'piece image-piece';
