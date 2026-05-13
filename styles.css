@@ -189,3 +189,13 @@ body:after{content:"DAILY CUT UP / SCAN IT BADLY / POST IT ANYWAY / ";position:f
   .tools button{min-height:42px;font-size:.56rem;padding:.48rem .08rem}
   .tools button#frontBtn,.tools button#backBtn{background:var(--acid);color:var(--ink)}
 }
+
+/* Text scraps, undo, shuffle, and expanded tool strip */
+.text-piece{border:0!important;background:transparent!important;box-shadow:none!important;padding:0!important;overflow:visible;display:grid;place-items:center}
+.text-scrap-label{display:grid;place-items:center;width:100%;height:100%;padding:.35rem .55rem;background:var(--acid);color:var(--ink);border:2px solid var(--ink);box-shadow:5px 5px 0 rgba(18,16,13,.72);font:900 clamp(.9rem,2.2vw,1.55rem)/.88 Arial Black,Impact,sans-serif;text-align:center;text-transform:uppercase;letter-spacing:-.045em;word-break:break-word}
+.text-piece:nth-child(3n) .text-scrap-label{background:var(--orange);color:#fff}.text-piece:nth-child(4n) .text-scrap-label{background:var(--pink);color:#fff}.text-piece:nth-child(5n) .text-scrap-label{background:#fffdf4}
+.text-piece.selected .text-scrap-label{outline:2px dashed var(--orange);outline-offset:6px}
+.text-piece.selected .rotate-handle{display:block}
+.topbar nav{align-items:center}.topbar button#shuffleTrayBtn{background:var(--acid);color:var(--ink)}
+.tools button#textBtn{background:var(--pink);color:white}.tools button#undoBtn{background:#fffdf4;color:var(--ink)}
+@media(max-width:720px){.topbar nav{grid-template-columns:1fr 1fr}.tools{grid-template-columns:repeat(3,1fr)!important}.tools button{font-size:.58rem!important}.text-scrap-label{font-size:1rem}}

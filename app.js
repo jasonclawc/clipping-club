@@ -153,8 +153,95 @@ let selected = null;
 let activeDrag = null;
 let boardPieces = [];
 let todayPack = [];
+let historyStack = [];
+let restoring = false;
 
 limitCount.textContent = LIMIT;
+
+
+function placedClipCount(){
+  return boardPieces.filter(p => p.dataset.kind !== 'text').length;
+}
+
+function serializePiece(p){
+  return {
+    kind: p.dataset.kind || 'image',
+    id: p.dataset.id,
+    slug: p.dataset.slug || '',
+    label: p.dataset.label || '',
+    src: p.dataset.src || '',
+    text: p.dataset.text || '',
+    x: p.dataset.x, y: p.dataset.y,
+    w: p.dataset.w, h: p.dataset.h,
+    rot: p.dataset.rot, scale: p.dataset.scale,
+    zIndex: p.style.zIndex || '10'
+  };
+}
+
+function pushHistory(){
+  if(restoring) return;
+  historyStack.push(boardPieces.map(serializePiece));
+  if(historyStack.length > 40) historyStack.shift();
+}
+
+function createTextPieceFromData(data){
+  const piece = document.createElement('div');
+  piece.className = 'piece text-piece';
+  piece.dataset.kind = 'text';
+  piece.dataset.id = data.id || (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()+Math.random()));
+  piece.dataset.text = data.text || 'LOCAL ONLY';
+  piece.dataset.x = data.x || '90'; piece.dataset.y = data.y || '120';
+  piece.dataset.w = data.w || '210'; piece.dataset.h = data.h || '72';
+  piece.dataset.rot = data.rot || String(randomPlacementRotation());
+  piece.dataset.scale = data.scale || '1';
+  piece.style.width = `${piece.dataset.w}px`; piece.style.height = `${piece.dataset.h}px`;
+  piece.style.zIndex = data.zIndex || String(++z);
+  piece.innerHTML = `<span class="text-scrap-label"></span><span class="rotate-handle" data-rotate title="Drag to rotate">↻</span>`;
+  piece.querySelector('.text-scrap-label').textContent = piece.dataset.text;
+  artboard.appendChild(piece);
+  wirePiece(piece);
+  applyTransform(piece);
+  return piece;
+}
+
+function createImagePieceFromData(data){
+  const clip = { slug:data.slug, label:data.label, src:data.src };
+  const piece = buildImagePiece(clip);
+  ['id','x','y','w','h','rot','scale','slug','label','src'].forEach(k => { if(data[k] !== undefined) piece.dataset[k] = data[k]; });
+  piece.style.width = `${piece.dataset.w}px`; piece.style.height = `${piece.dataset.h}px`;
+  piece.style.zIndex = data.zIndex || String(++z);
+  artboard.appendChild(piece);
+  wirePiece(piece);
+  applyTransform(piece);
+  return piece;
+}
+
+function restoreSnapshot(snapshot){
+  restoring = true;
+  boardPieces.forEach(p => p.remove());
+  boardPieces = [];
+  selected = null;
+  snapshot.forEach(data => boardPieces.push(data.kind === 'text' ? createTextPieceFromData(data) : createImagePieceFromData(data)));
+  normalizeLayers([...boardPieces].sort((a,b) => Number(a.style.zIndex||0) - Number(b.style.zIndex||0)));
+  syncTrayUsed();
+  updateCount();
+  restoring = false;
+}
+
+function undoLast(){
+  const snap = historyStack.pop();
+  if(!snap) return;
+  restoreSnapshot(snap);
+}
+
+function syncTrayUsed(){
+  const used = new Set(boardPieces.filter(p => p.dataset.kind !== 'text').map(p => p.dataset.slug));
+  tray.querySelectorAll('.clip').forEach(btn => {
+    const isUsed = used.has(btn.dataset.slug);
+    btn.classList.toggle('used', isUsed);
+    btn.disabled = isUsed || placedClipCount() >= LIMIT;
+  });
+}
 
 function todayKey(offset = 0){
   // Public daily challenge: use one shared Pulp day for everyone.
@@ -197,21 +284,34 @@ async function dailyPack(){
   return seededShuffle(clipLibrary, hashString(`clipping-club-${key}`)).slice(0, LIMIT);
 }
 
-async function renderTray(){
-  tray.innerHTML = '<p class="tray-loading">Loading today’s clippings…</p>';
-  todayPack = await dailyPack();
+function paintTray(pack){
   tray.innerHTML = '';
-  todayPack.forEach((clip, i) => {
+  const used = new Set(boardPieces.filter(p => p.dataset.kind !== 'text').map(p => p.dataset.slug));
+  pack.forEach((clip, i) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'clip image-clip';
     btn.dataset.slug = clip.slug;
     btn.dataset.label = clip.label;
     btn.innerHTML = `<span class="clip-number">${String(i+1).padStart(2,'0')}</span><img src="${clip.src}" alt="${clip.label}" draggable="false"><span class="label">${clip.label}</span><span class="meta">${clip.meta}</span>`;
+    if(used.has(clip.slug)) btn.classList.add('used');
     btn.addEventListener('click', () => addPiece(clip, btn));
     tray.appendChild(btn);
   });
   updateCount();
+}
+
+async function renderTray(){
+  tray.innerHTML = '<p class="tray-loading">Loading today’s clippings…</p>';
+  todayPack = await dailyPack();
+  paintTray(todayPack);
+}
+
+function shuffleTray(){
+  if(!todayPack.length) return;
+  const seed = hashString(`${todayKey()}-${Date.now()}-${Math.random()}`);
+  todayPack = seededShuffle(todayPack, seed);
+  paintTray(todayPack);
 }
 
 function seedStarterPieces(){
@@ -253,9 +353,9 @@ function seedStarterPieces(){
 }
 
 function updateCount(){
-  usedCount.textContent = boardPieces.length;
-  const full = boardPieces.length >= LIMIT;
-  tray.querySelectorAll('.clip:not(.used)').forEach(c => c.disabled = full);
+  usedCount.textContent = placedClipCount();
+  const full = placedClipCount() >= LIMIT;
+  tray.querySelectorAll('.clip').forEach(c => { if(!c.classList.contains('used')) c.disabled = full; });
 }
 
 function makeTornPoints(){
@@ -307,8 +407,7 @@ function randomPlacementRotation(){
   return Math.round((Math.random() < 0.5 ? -1 : 1) * magnitude);
 }
 
-function addPiece(clip, sourceBtn){
-  if(boardPieces.length >= LIMIT || sourceBtn.classList.contains('used')) return;
+function buildImagePiece(clip){
   const piece = document.createElement('div');
   const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now()+Math.random());
   const scale = 0.55 + Math.random() * 0.38;
@@ -316,6 +415,7 @@ function addPiece(clip, sourceBtn){
   const x = 60 + Math.random() * Math.max(80, artboard.clientWidth - 220);
   const y = 80 + Math.random() * Math.max(80, artboard.clientHeight - 240);
   piece.className = 'piece image-piece';
+  piece.dataset.kind = 'image';
   piece.dataset.id = id;
   piece.dataset.x = x;
   piece.dataset.y = y;
@@ -324,8 +424,6 @@ function addPiece(clip, sourceBtn){
   const sizeRoll = Math.random();
   piece.dataset.w = String(Math.round(sizeRoll < 0.25 ? 120 + Math.random() * 90 : sizeRoll > 0.78 ? 300 + Math.random() * 170 : 185 + Math.random() * 150));
   piece.dataset.h = String(Math.round(sizeRoll < 0.25 ? 110 + Math.random() * 100 : sizeRoll > 0.78 ? 240 + Math.random() * 190 : 150 + Math.random() * 175));
-  // Clean crop mode: pieces are precise rectangular image crops, not torn scraps.
-  // Feedback from launch testing: cleaner crops make more cohesive collages.
   piece.dataset.cut = 'clean';
   piece.dataset.cutPoly = '0% 0%, 100% 0%, 100% 100%, 0% 100%';
   piece.dataset.edgePoly = piece.dataset.cutPoly;
@@ -359,12 +457,43 @@ function addPiece(clip, sourceBtn){
   piece.style.setProperty('--edge-x', `${piece.dataset.edgeOffsetX}px`);
   piece.style.setProperty('--edge-y', `${piece.dataset.edgeOffsetY}px`);
   piece.style.setProperty('--edge-rot', piece.dataset.edgeRot);
+  return piece;
+}
+
+function addPiece(clip, sourceBtn){
+  if(placedClipCount() >= LIMIT || sourceBtn.classList.contains('used')) return;
+  pushHistory();
+  const piece = buildImagePiece(clip);
   artboard.appendChild(piece);
   sourceBtn.classList.add('used');
   boardPieces.push(piece);
   applyTransform(piece);
   select(piece);
   wirePiece(piece);
+  updateCount();
+}
+
+function addTextScrap(){
+  const raw = prompt('Text scrap:', 'LOCAL ONLY');
+  if(raw === null) return;
+  const text = raw.trim().slice(0, 42);
+  if(!text) return;
+  pushHistory();
+  const bw = artboard.clientWidth || 600;
+  const bh = artboard.clientHeight || 600;
+  const data = {
+    text,
+    x: String(Math.round(55 + Math.random() * Math.max(60, bw - 260))),
+    y: String(Math.round(75 + Math.random() * Math.max(60, bh - 180))),
+    w: String(Math.min(260, Math.max(160, text.length * 12 + 64))),
+    h: '76',
+    rot: String(randomPlacementRotation()),
+    scale: '1',
+    zIndex: String(++z)
+  };
+  const piece = createTextPieceFromData(data);
+  boardPieces.push(piece);
+  select(piece);
   updateCount();
 }
 
@@ -393,6 +522,7 @@ function wirePiece(piece){
   piece.addEventListener('pointerdown', (e) => {
     if(e.button && e.button !== 0) return;
     select(piece);
+    pushHistory();
     piece.setPointerCapture(e.pointerId);
     const rotateHandle = e.target.closest('[data-rotate]');
     if(rotateHandle){
@@ -473,6 +603,7 @@ function wirePiece(piece){
 }
 function changeSelected({rot=0, scale=0, front=false, back=false, del=false}){
   if(!selected) return;
+  pushHistory();
   if(del){
     const slug = selected.dataset.slug;
     [...tray.children].find(btn => btn.dataset.slug === slug)?.classList.remove('used');
@@ -496,10 +627,15 @@ document.getElementById('smallerBtn').onclick = () => changeSelected({scale:-.08
 document.getElementById('frontBtn').onclick = () => changeSelected({front:true});
 document.getElementById('backBtn').onclick = () => changeSelected({back:true});
 document.getElementById('deleteBtn').onclick = () => changeSelected({del:true});
+document.getElementById('textBtn').onclick = addTextScrap;
+document.getElementById('undoBtn').onclick = undoLast;
 document.getElementById('clearBtn').onclick = clearBoard;
 document.getElementById('newPackBtn').onclick = async () => { clearBoard(); await renderTray(); };
+document.getElementById('shuffleTrayBtn').onclick = shuffleTray;
 
 function clearBoard(){
+  if(!boardPieces.length) return;
+  pushHistory();
   boardPieces.forEach(p => p.remove());
   boardPieces = [];
   selected = null;
@@ -508,6 +644,7 @@ function clearBoard(){
 }
 
 document.addEventListener('keydown', (e) => {
+  if((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'z'){ undoLast(); return; }
   if(!selected) return;
   if(e.key === 'Delete' || e.key === 'Backspace') changeSelected({del:true});
   if(e.key === '[') changeSelected({rot:-7});
@@ -531,7 +668,8 @@ async function exportPNG(){
   for(let i=0;i<size;i+=28*sx){ ctx.beginPath(); ctx.moveTo(i,0); ctx.lineTo(i,size); ctx.stroke(); ctx.beginPath(); ctx.moveTo(0,i); ctx.lineTo(size,i); ctx.stroke(); }
   ctx.fillStyle = '#12100d'; ctx.fillRect(22,22,415,34); ctx.fillStyle = '#fff1d2'; ctx.font = '18px Menlo, monospace'; ctx.fillText(`CLIPPING CLUB / ${todayKey()}`, 34, 46);
   const orderedPieces = [...boardPieces].sort((a, b) => Number(a.style.zIndex || 0) - Number(b.style.zIndex || 0));
-  for(const p of orderedPieces){ await drawImagePiece(ctx, p, sx); }
+  for(const p of orderedPieces){ await drawPiece(ctx, p, sx); }
+  drawWatermark(ctx, size);
   const filename = `clipping-club-${todayKey()}.png`;
   canvas.toBlob(async (blob) => {
     if(!blob) return;
@@ -570,6 +708,11 @@ function makeDatasetCutPath(ctx, w, h, poly){
 }
 
 
+async function drawPiece(ctx, p, sx){
+  if(p.dataset.kind === 'text'){ drawTextPiece(ctx, p, sx); return; }
+  await drawImagePiece(ctx, p, sx);
+}
+
 async function drawImagePiece(ctx, p, sx){
   const img = await loadImage(p.dataset.src);
   const x = parseFloat(p.dataset.x)*sx, y = parseFloat(p.dataset.y)*sx;
@@ -581,5 +724,40 @@ async function drawImagePiece(ctx, p, sx){
   ctx.drawImage(img, 0, 0, w, h);
   ctx.restore();
 }
+
+function drawTextPiece(ctx, p, sx){
+  const x = parseFloat(p.dataset.x)*sx, y = parseFloat(p.dataset.y)*sx;
+  const w = parseFloat(p.dataset.w || p.offsetWidth)*sx, h = parseFloat(p.dataset.h || p.offsetHeight)*sx;
+  const scale = parseFloat(p.dataset.scale || 1), rot = parseFloat(p.dataset.rot || 0) * Math.PI / 180;
+  ctx.save();
+  ctx.translate(x + w/2, y + h/2); ctx.rotate(rot); ctx.scale(scale, scale); ctx.translate(-w/2, -h/2);
+  ctx.shadowColor = 'rgba(18,16,13,.75)'; ctx.shadowOffsetX = 5; ctx.shadowOffsetY = 5; ctx.shadowBlur = 0;
+  ctx.fillStyle = '#d7ff2f'; ctx.fillRect(0, 0, w, h);
+  ctx.shadowColor = 'transparent';
+  ctx.strokeStyle = '#12100d'; ctx.lineWidth = Math.max(2, 3*sx); ctx.strokeRect(0,0,w,h);
+  ctx.fillStyle = '#12100d'; ctx.font = `900 ${Math.max(22, 34*sx)}px Arial Black, Impact, sans-serif`;
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  wrapText(ctx, (p.dataset.text || '').toUpperCase(), w/2, h/2, w - 22*sx, 34*sx);
+  ctx.restore();
+}
+
+function wrapText(ctx, text, x, y, maxWidth, lineHeight){
+  const words = text.split(/\s+/); const lines=[]; let line='';
+  words.forEach(word => { const test = line ? `${line} ${word}` : word; if(ctx.measureText(test).width > maxWidth && line){ lines.push(line); line=word; } else line=test; });
+  if(line) lines.push(line);
+  const start = y - (lines.length - 1) * lineHeight / 2;
+  lines.slice(0,3).forEach((line,i) => ctx.fillText(line, x, start + i*lineHeight));
+}
+
+function drawWatermark(ctx, size){
+  const text = 'clippingclubsm.com  /  powered by @pulp.sm';
+  ctx.save();
+  ctx.font = '900 24px Menlo, monospace';
+  const w = ctx.measureText(text).width + 42;
+  ctx.fillStyle = 'rgba(18,16,13,.82)'; ctx.fillRect(size - w - 24, size - 58, w, 34);
+  ctx.fillStyle = '#fff1d2'; ctx.fillText(text, size - w - 4, size - 34);
+  ctx.restore();
+}
+
 document.getElementById('exportBtn').onclick = exportPNG;
 renderTray();
