@@ -272,25 +272,23 @@ function addPiece(clip, sourceBtn){
   const sizeRoll = Math.random();
   piece.dataset.w = String(Math.round(sizeRoll < 0.25 ? 120 + Math.random() * 90 : sizeRoll > 0.78 ? 300 + Math.random() * 170 : 185 + Math.random() * 150));
   piece.dataset.h = String(Math.round(sizeRoll < 0.25 ? 110 + Math.random() * 100 : sizeRoll > 0.78 ? 240 + Math.random() * 190 : 150 + Math.random() * 175));
-  const cutPoly = makeTornPoints();
-  piece.dataset.cut = String(Math.floor(Math.random() * 8) + 1);
-  piece.dataset.cutPoly = cutPoly;
-  piece.dataset.edgePoly = backingPolygon();
-  piece.dataset.paper = paperTone();
-  piece.dataset.edge = edgeTone();
-  piece.dataset.padTop = String(Math.round(Math.random() < 0.28 ? 0 : 4 + Math.random() * 34));
-  piece.dataset.padRight = String(Math.round(Math.random() < 0.28 ? 0 : 4 + Math.random() * 34));
-  piece.dataset.padBottom = String(Math.round(Math.random() < 0.28 ? 0 : 4 + Math.random() * 34));
-  piece.dataset.padLeft = String(Math.round(Math.random() < 0.28 ? 0 : 4 + Math.random() * 34));
-  piece.dataset.backingType = ['paper','receipt','newsprint','color','black','none','graph','lined','kraft','coupon','polaroid'][Math.floor(Math.random()*11)];
-  if(piece.dataset.backingType === 'polaroid'){ piece.dataset.padBottom = String(Number(piece.dataset.padBottom) + 38); piece.dataset.padLeft = String(Number(piece.dataset.padLeft) + 8); piece.dataset.padRight = String(Number(piece.dataset.padRight) + 8); }
-  if(piece.dataset.backingType === 'coupon'){ piece.dataset.padTop = String(Number(piece.dataset.padTop) + 14); piece.dataset.padBottom = String(Number(piece.dataset.padBottom) + 14); }
-  if(piece.dataset.backingType === 'none'){ piece.dataset.padTop = '0'; piece.dataset.padRight = '0'; piece.dataset.padBottom = '0'; piece.dataset.padLeft = '0'; }
-  piece.dataset.edgeOffsetX = String(Math.round(-18 + Math.random() * 36));
-  piece.dataset.edgeOffsetY = String(Math.round(-18 + Math.random() * 36));
-  piece.dataset.edgeRot = `${(-5 + Math.random() * 10).toFixed(1)}deg`;
-  piece.dataset.tape = Math.random() > 0.42 ? '1' : '0';
-  piece.dataset.pin = Math.random() > 0.72 ? '1' : '0';
+  // Clean crop mode: pieces are precise rectangular image crops, not torn scraps.
+  // Feedback from launch testing: cleaner crops make more cohesive collages.
+  piece.dataset.cut = 'clean';
+  piece.dataset.cutPoly = '0% 0%, 100% 0%, 100% 100%, 0% 100%';
+  piece.dataset.edgePoly = piece.dataset.cutPoly;
+  piece.dataset.paper = '#fffdf4';
+  piece.dataset.edge = '#fffdf4';
+  piece.dataset.padTop = '0';
+  piece.dataset.padRight = '0';
+  piece.dataset.padBottom = '0';
+  piece.dataset.padLeft = '0';
+  piece.dataset.backingType = 'none';
+  piece.dataset.edgeOffsetX = '0';
+  piece.dataset.edgeOffsetY = '0';
+  piece.dataset.edgeRot = '0deg';
+  piece.dataset.tape = '0';
+  piece.dataset.pin = '0';
   piece.dataset.label = clip.label;
   piece.dataset.slug = clip.slug;
   piece.dataset.src = clip.src;
@@ -514,19 +512,14 @@ async function drawImagePiece(ctx, p, sx){
   const scale = parseFloat(p.dataset.scale), rot = parseFloat(p.dataset.rot) * Math.PI / 180;
   ctx.save();
   ctx.translate(x + w/2, y + h/2); ctx.rotate(rot); ctx.scale(scale, scale); ctx.translate(-w/2, -h/2);
-  ctx.shadowColor = 'rgba(18,16,13,.65)'; ctx.shadowOffsetX = 8; ctx.shadowOffsetY = 8; ctx.shadowBlur = 0;
-  if(p.dataset.backingType !== 'none'){
-    ctx.fillStyle = p.dataset.backingType === 'black' ? '#12100d' : (p.dataset.paper || '#fffdf4');
-    makeDatasetCutPath(ctx, w, h, p.dataset.edgePoly);
-    ctx.fill();
-  }
+  ctx.shadowColor = 'rgba(18,16,13,.55)'; ctx.shadowOffsetX = 7; ctx.shadowOffsetY = 8; ctx.shadowBlur = 0;
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, w, h);
   ctx.shadowColor = 'transparent';
-  const pt = Number(p.dataset.padTop || 8), pr = Number(p.dataset.padRight || 8), pb = Number(p.dataset.padBottom || 8), pl = Number(p.dataset.padLeft || 8);
-  ctx.translate(pl, pt);
-  const iw = Math.max(10, w - pl - pr), ih = Math.max(10, h - pt - pb);
-  makeDatasetCutPath(ctx, iw, ih, p.dataset.cutPoly);
-  ctx.clip();
-  ctx.drawImage(img, 0, 0, iw, ih);
+  ctx.drawImage(img, 0, 0, w, h);
+  ctx.strokeStyle = 'rgba(18,16,13,.72)';
+  ctx.lineWidth = Math.max(1, 2 * sx);
+  ctx.strokeRect(0, 0, w, h);
   ctx.restore();
 }
 document.getElementById('exportBtn').onclick = exportPNG;

@@ -122,3 +122,31 @@ body:after{content:"DAILY CUT UP / SCAN IT BADLY / POST IT ANYWAY / ";position:f
   .brand em{font-size:.54rem;line-height:1.05;white-space:normal;overflow-wrap:anywhere}
   .pulp-link{overflow-wrap:anywhere}
 }
+
+
+/* Clean crop mode — feedback pass: cohesive rectangular clippings instead of jagged tears */
+.image-piece .cut-wrap{
+  position:absolute;
+  inset:0;
+  padding:0!important;
+  background:transparent!important;
+  clip-path:none!important;
+  filter:drop-shadow(7px 8px 0 rgba(18,16,13,.55))!important;
+  box-shadow:none!important;
+}
+.image-piece .cut-wrap:before,
+.image-piece .cut-wrap:after,
+.image-piece[data-tape="1"]:before,
+.image-piece[data-pin="1"]:after{display:none!important}
+.image-piece .cut-wrap img,
+.image-piece[data-backing-type] .cut-wrap img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  clip-path:none!important;
+  border:2px solid var(--ink)!important;
+  background:#fff;
+  filter:grayscale(.03) contrast(1.08) saturate(1.02)!important;
+}
+.image-piece.selected .cut-wrap{outline:2px dashed var(--orange);outline-offset:6px}
