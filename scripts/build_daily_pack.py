@@ -179,10 +179,13 @@ def main():
     ap.add_argument("--date", default=tomorrow_eastern(), help="YYYY-MM-DD pack date; default tomorrow")
     ap.add_argument("--target", type=int, default=LIMIT)
     ap.add_argument("--collect-if-needed", action="store_true")
+    ap.add_argument("--collect-first", action="store_true", help="Collect a fresh batch before choosing the pack, so each day is sourced from new candidates.")
     ap.add_argument("--collect-count", type=int, default=25)
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
     PACK_DIR.mkdir(exist_ok=True)
+    if args.collect_first:
+        run_collector(max(args.collect_count, args.target + 10))
     rows = choose_pack(args.date, args.target)
     if len(rows) < args.target and args.collect_if_needed:
         need = args.target - len(rows)
