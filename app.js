@@ -175,6 +175,7 @@ function serializePiece(p){
     x: p.dataset.x, y: p.dataset.y,
     w: p.dataset.w, h: p.dataset.h,
     rot: p.dataset.rot, scale: p.dataset.scale,
+    locked: p.dataset.locked || '0',
     zIndex: p.style.zIndex || '10'
   };
 }
@@ -195,9 +196,11 @@ function createTextPieceFromData(data){
   piece.dataset.w = data.w || '210'; piece.dataset.h = data.h || '72';
   piece.dataset.rot = data.rot || String(randomPlacementRotation());
   piece.dataset.scale = data.scale || '1';
+  piece.dataset.locked = data.locked || '0';
+  piece.classList.toggle('locked', piece.dataset.locked === '1');
   piece.style.width = `${piece.dataset.w}px`; piece.style.height = `${piece.dataset.h}px`;
   piece.style.zIndex = data.zIndex || String(++z);
-  piece.innerHTML = `<span class="text-scrap-label"></span><span class="rotate-handle" data-rotate title="Drag to rotate">↻</span>`;
+  piece.innerHTML = `<span class="text-scrap-label"></span><span class="lock-badge" aria-hidden="true">LOCKED</span><span class="rotate-handle" data-rotate title="Drag to rotate">↻</span>`;
   piece.querySelector('.text-scrap-label').textContent = piece.dataset.text;
   artboard.appendChild(piece);
   wirePiece(piece);
@@ -208,7 +211,8 @@ function createTextPieceFromData(data){
 function createImagePieceFromData(data){
   const clip = { slug:data.slug, label:data.label, src:data.src };
   const piece = buildImagePiece(clip);
-  ['id','x','y','w','h','rot','scale','slug','label','src'].forEach(k => { if(data[k] !== undefined) piece.dataset[k] = data[k]; });
+  ['id','x','y','w','h','rot','scale','slug','label','src','locked'].forEach(k => { if(data[k] !== undefined) piece.dataset[k] = data[k]; });
+  piece.classList.toggle('locked', piece.dataset.locked === '1');
   piece.style.width = `${piece.dataset.w}px`; piece.style.height = `${piece.dataset.h}px`;
   piece.style.zIndex = data.zIndex || String(++z);
   artboard.appendChild(piece);
@@ -225,6 +229,7 @@ function restoreSnapshot(snapshot){
   snapshot.forEach(data => boardPieces.push(data.kind === 'text' ? createTextPieceFromData(data) : createImagePieceFromData(data)));
   normalizeLayers([...boardPieces].sort((a,b) => Number(a.style.zIndex||0) - Number(b.style.zIndex||0)));
   syncTrayUsed();
+  updateLockButton();
   updateCount();
   restoring = false;
 }
@@ -425,6 +430,7 @@ function buildImagePiece(clip){
   piece.dataset.y = y;
   piece.dataset.rot = rot;
   piece.dataset.scale = scale.toFixed(2);
+  piece.dataset.locked = '0';
   const sizeRoll = Math.random();
   piece.dataset.w = String(Math.round(sizeRoll < 0.25 ? 120 + Math.random() * 90 : sizeRoll > 0.78 ? 300 + Math.random() * 170 : 185 + Math.random() * 150));
   piece.dataset.h = String(Math.round(sizeRoll < 0.25 ? 110 + Math.random() * 100 : sizeRoll > 0.78 ? 240 + Math.random() * 190 : 150 + Math.random() * 175));
@@ -449,7 +455,7 @@ function buildImagePiece(clip){
   piece.style.width = `${piece.dataset.w}px`;
   piece.style.height = `${piece.dataset.h}px`;
   piece.style.zIndex = ++z;
-  piece.innerHTML = `<div class="cut-wrap"><img src="${clip.src}" alt="${clip.label}" draggable="false"></div><span class="piece-caption">${clip.label}</span><span class="rotate-handle" data-rotate title="Drag to rotate">↻</span><span class="resize-handle nw" data-resize="nw"></span><span class="resize-handle ne" data-resize="ne"></span><span class="resize-handle sw" data-resize="sw"></span><span class="resize-handle se" data-resize="se"></span>`;
+  piece.innerHTML = `<div class="cut-wrap"><img src="${clip.src}" alt="${clip.label}" draggable="false"></div><span class="piece-caption">${clip.label}</span><span class="lock-badge" aria-hidden="true">LOCKED</span><span class="rotate-handle" data-rotate title="Drag to rotate">↻</span><span class="resize-handle nw" data-resize="nw"></span><span class="resize-handle ne" data-resize="ne"></span><span class="resize-handle sw" data-resize="sw"></span><span class="resize-handle se" data-resize="se"></span>`;
   piece.style.setProperty('--cut-poly', `polygon(${piece.dataset.cutPoly})`);
   piece.style.setProperty('--edge-poly', `polygon(${piece.dataset.edgePoly})`);
   piece.style.setProperty('--paper-tone', piece.dataset.paper);
@@ -508,6 +514,26 @@ function select(el){
   if(selected) selected.classList.remove('selected');
   selected = el;
   if(selected) selected.classList.add('selected');
+  updateLockButton();
+}
+
+function updateLockButton(){
+  const btn = document.getElementById('lockBtn');
+  if(!btn) return;
+  const locked = selected?.dataset.locked === '1';
+  btn.textContent = locked ? 'Unlock' : 'Lock';
+  btn.classList.toggle('active', locked);
+  btn.disabled = !selected;
+}
+
+function toggleSelectedLock(){
+  if(!selected) return;
+  pushHistory();
+  const locked = selected.dataset.locked === '1';
+  selected.dataset.locked = locked ? '0' : '1';
+  selected.classList.toggle('locked', !locked);
+  activeDrag = null;
+  updateLockButton();
 }
 
 function normalizeLayers(order = boardPieces){
@@ -526,6 +552,11 @@ function wirePiece(piece){
   piece.addEventListener('pointerdown', (e) => {
     if(e.button && e.button !== 0) return;
     select(piece);
+    if(piece.dataset.locked === '1'){
+      activeDrag = null;
+      e.preventDefault();
+      return;
+    }
     pushHistory();
     piece.setPointerCapture(e.pointerId);
     const rotateHandle = e.target.closest('[data-rotate]');
@@ -607,6 +638,7 @@ function wirePiece(piece){
 }
 function changeSelected({rot=0, scale=0, front=false, back=false, del=false}){
   if(!selected) return;
+  if(selected.dataset.locked === '1') return;
   pushHistory();
   if(del){
     const slug = selected.dataset.slug;
@@ -614,6 +646,7 @@ function changeSelected({rot=0, scale=0, front=false, back=false, del=false}){
     selected.remove();
     boardPieces = boardPieces.filter(p => p !== selected);
     selected = null;
+    updateLockButton();
     updateCount();
     return;
   }
@@ -628,6 +661,7 @@ document.getElementById('rotateLeftBtn').onclick = () => changeSelected({rot:-7}
 document.getElementById('rotateRightBtn').onclick = () => changeSelected({rot:7});
 document.getElementById('biggerBtn').onclick = () => changeSelected({scale:.08});
 document.getElementById('smallerBtn').onclick = () => changeSelected({scale:-.08});
+document.getElementById('lockBtn').onclick = toggleSelectedLock;
 document.getElementById('frontBtn').onclick = () => changeSelected({front:true});
 document.getElementById('backBtn').onclick = () => changeSelected({back:true});
 document.getElementById('deleteBtn').onclick = () => changeSelected({del:true});
@@ -635,6 +669,7 @@ document.getElementById('undoBtn').onclick = undoLast;
 document.getElementById('clearBtn').onclick = clearBoard;
 document.getElementById('newPackBtn').onclick = async () => { clearBoard(); await renderTray(); };
 document.getElementById('shuffleTrayBtn').onclick = shuffleTray;
+updateLockButton();
 
 function clearBoard(){
   if(!boardPieces.length) return;
@@ -642,6 +677,7 @@ function clearBoard(){
   boardPieces.forEach(p => p.remove());
   boardPieces = [];
   selected = null;
+  updateLockButton();
   tray.querySelectorAll('.clip').forEach(btn => {btn.classList.remove('used'); btn.disabled = false;});
   updateCount();
 }
@@ -649,6 +685,7 @@ function clearBoard(){
 document.addEventListener('keydown', (e) => {
   if((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'z'){ undoLast(); return; }
   if(!selected) return;
+  if(e.key.toLowerCase() === 'l') toggleSelectedLock();
   if(e.key === 'Delete' || e.key === 'Backspace') changeSelected({del:true});
   if(e.key === '[') changeSelected({rot:-7});
   if(e.key === ']') changeSelected({rot:7});

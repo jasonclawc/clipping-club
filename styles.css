@@ -198,3 +198,11 @@ body:after{content:"DAILY CUT UP / SCAN IT BADLY / POST IT ANYWAY / ";position:f
 .text-piece.selected .rotate-handle{display:block}
 .topbar nav{align-items:center}.tools button#undoBtn{background:#fffdf4;color:var(--ink)}.tray-actions{display:grid;gap:.35rem;justify-items:end}.tray-actions p{margin:0;background:var(--orange);color:#fff;border:2px solid var(--ink);padding:.35rem .45rem;font-weight:900}.tray-actions button{border:2px solid var(--ink);background:var(--acid);color:var(--ink);box-shadow:3px 3px 0 var(--ink);padding:.34rem .45rem;text-transform:uppercase;font-size:.62rem;font-weight:900}.tray-actions button:hover{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--orange)}
 @media(max-width:720px){.topbar nav{grid-template-columns:1fr 1fr}.tools{grid-template-columns:repeat(3,1fr)!important}.tools button{font-size:.58rem!important}.text-scrap-label{font-size:1rem}.tray-actions{justify-items:start;margin-top:.45rem}}
+
+/* Lock selected layers in place */
+.tools button#lockBtn.active{background:var(--orange);color:#fff}
+.piece.locked{cursor:not-allowed}
+.piece.locked .resize-handle,.piece.locked .rotate-handle{display:none!important}
+.piece.locked.selected .cut-wrap,.text-piece.locked.selected .text-scrap-label{outline:2px dashed var(--navy);outline-offset:6px}
+.lock-badge{display:none;position:absolute;left:50%;top:-28px;z-index:9;transform:translateX(-50%) rotate(-2deg);white-space:nowrap;background:var(--navy);color:#fff;border:2px solid var(--ink);box-shadow:2px 2px 0 var(--orange);padding:.16rem .28rem;font-size:.56rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;pointer-events:none}.piece.locked.selected .lock-badge{display:block}
+@media(max-width:720px){.lock-badge{top:-24px;font-size:.5rem}.piece.locked.selected .lock-badge{display:block}}
