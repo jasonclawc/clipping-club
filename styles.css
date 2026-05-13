@@ -178,3 +178,5 @@ body:after{content:"DAILY CUT UP / SCAN IT BADLY / POST IT ANYWAY / ";position:f
   filter:saturate(1.04) contrast(1.05)!important;
 }
 .image-piece.selected .cut-wrap{outline:2px dashed var(--orange);outline-offset:6px}
+
+.tray-loading{font-weight:900;text-transform:uppercase;color:var(--muted);padding:.8rem;background:#fffdf4;border:2px dashed rgba(18,16,13,.25)}

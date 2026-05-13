@@ -140,14 +140,27 @@ function seededShuffle(arr, seed){
   return out;
 }
 
-function dailyPack(){
+async function dailyPack(){
   const key = todayKey();
   promptEl.textContent = prompts[hashString(key) % prompts.length];
+  try {
+    const res = await fetch(`daily-packs/${key}.json?v=${encodeURIComponent(key)}`, { cache: 'no-store' });
+    if(res.ok){
+      const pack = await res.json();
+      if(Array.isArray(pack.clippings) && pack.clippings.length >= LIMIT){
+        return pack.clippings.slice(0, LIMIT);
+      }
+    }
+  } catch (err) {
+    console.warn('Daily pack unavailable, using local fallback', err);
+  }
+  // Emergency fallback only: the morning automation should create dated packs.
   return seededShuffle(clipLibrary, hashString(`clipping-club-${key}`)).slice(0, LIMIT);
 }
 
-function renderTray(){
-  todayPack = dailyPack();
+async function renderTray(){
+  tray.innerHTML = '<p class="tray-loading">Loading today’s clippings…</p>';
+  todayPack = await dailyPack();
   tray.innerHTML = '';
   todayPack.forEach((clip, i) => {
     const btn = document.createElement('button');
@@ -425,7 +438,7 @@ document.getElementById('frontBtn').onclick = () => changeSelected({front:true})
 document.getElementById('backBtn').onclick = () => changeSelected({back:true});
 document.getElementById('deleteBtn').onclick = () => changeSelected({del:true});
 document.getElementById('clearBtn').onclick = clearBoard;
-document.getElementById('newPackBtn').onclick = () => { clearBoard(); renderTray(); };
+document.getElementById('newPackBtn').onclick = async () => { clearBoard(); await renderTray(); };
 
 function clearBoard(){
   boardPieces.forEach(p => p.remove());
