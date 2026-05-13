@@ -148,6 +148,7 @@ const usedCount = document.getElementById('usedCount');
 const limitCount = document.getElementById('limitCount');
 const promptEl = document.getElementById('dailyPrompt');
 const LIMIT = 15;
+const DAILY_PACK_VERSION = '2026-05-13-reroll-2';
 let z = 10;
 let selected = null;
 let activeDrag = null;
@@ -270,7 +271,7 @@ async function dailyPack(){
   const key = todayKey();
   promptEl.textContent = prompts[hashString(key) % prompts.length];
   try {
-    const res = await fetch(`daily-packs/${key}.json?v=${encodeURIComponent(key)}`, { cache: 'no-store' });
+    const res = await fetch(`daily-packs/${key}.json?v=${encodeURIComponent(`${key}-${DAILY_PACK_VERSION}`)}`, { cache: 'no-store' });
     if(res.ok){
       const pack = await res.json();
       if(Array.isArray(pack.clippings) && pack.clippings.length >= LIMIT){
@@ -278,10 +279,9 @@ async function dailyPack(){
       }
     }
   } catch (err) {
-    console.warn('Daily pack unavailable, using local fallback', err);
+    console.warn('Daily pack unavailable', err);
   }
-  // Emergency fallback only: the morning automation should create dated packs.
-  return seededShuffle(clipLibrary, hashString(`clipping-club-${key}`)).slice(0, LIMIT);
+  return [];
 }
 
 function paintTray(pack){
@@ -304,6 +304,10 @@ function paintTray(pack){
 async function renderTray(){
   tray.innerHTML = '<p class="tray-loading">Loading today’s clippings…</p>';
   todayPack = await dailyPack();
+  if(!todayPack.length){
+    tray.innerHTML = '<p class="tray-loading">Today’s clippings did not load. Refresh once, and if this keeps happening we’ll rebuild the pack.</p>';
+    return;
+  }
   paintTray(todayPack);
 }
 

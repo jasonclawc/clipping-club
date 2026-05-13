@@ -1,112 +1,112 @@
 {
   "date": "2026-05-13",
   "limit": 15,
-  "generatedAt": "2026-05-13T09:36:18.302120+00:00",
+  "generatedAt": "2026-05-13T09:48:20.906862+00:00",
   "clippings": [
     {
-      "slug": "met-13722-memorial-to-salome-and-moses-brown",
-      "label": "Memorial to Salome and Moses Brown",
-      "meta": "The American Wing",
-      "src": "assets/cutout-clippings/met-13722-memorial-to-salome-and-moses-brown.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/13722"
+      "slug": "aic-591-vessel",
+      "label": "Vessel",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-591-vessel.png",
+      "sourceUrl": "https://www.artic.edu/artworks/591"
     },
     {
-      "slug": "aic-863-pastoral-landscape-with-ruins",
-      "label": "Pastoral Landscape with Ruins",
+      "slug": "aic-182-kantharos-wine-cup",
+      "label": "Kantharos (Wine Cup)",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-182-kantharos-wine-cup.png",
+      "sourceUrl": "https://www.artic.edu/artworks/182"
+    },
+    {
+      "slug": "aic-277-kantharos-wine-cup",
+      "label": "Kantharos (Wine Cup)",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-277-kantharos-wine-cup.png",
+      "sourceUrl": "https://www.artic.edu/artworks/277"
+    },
+    {
+      "slug": "aic-185-kylix-drinking-cup",
+      "label": "Kylix (Drinking Cup)",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-185-kylix-drinking-cup.png",
+      "sourceUrl": "https://www.artic.edu/artworks/185"
+    },
+    {
+      "slug": "aic-158980-royal-flemish-vase",
+      "label": "Royal Flemish Vase",
+      "meta": "Glass",
+      "src": "assets/cutout-clippings/aic-158980-royal-flemish-vase.png",
+      "sourceUrl": "https://www.artic.edu/artworks/158980"
+    },
+    {
+      "slug": "aic-87659-chous-toy-pitcher",
+      "label": "Chous (Toy Pitcher)",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-87659-chous-toy-pitcher.png",
+      "sourceUrl": "https://www.artic.edu/artworks/87659"
+    },
+    {
+      "slug": "aic-120081-landscape-with-dog",
+      "label": "Landscape with Dog",
       "meta": "Painting",
-      "src": "assets/cutout-clippings/aic-863-pastoral-landscape-with-ruins.png",
-      "sourceUrl": "https://www.artic.edu/artworks/863"
+      "src": "assets/cutout-clippings/aic-120081-landscape-with-dog.png",
+      "sourceUrl": "https://www.artic.edu/artworks/120081"
     },
     {
-      "slug": "aic-27281-madam-pompadour",
-      "label": "Madam Pompadour",
-      "meta": "Painting",
-      "src": "assets/cutout-clippings/aic-27281-madam-pompadour.png",
-      "sourceUrl": "https://www.artic.edu/artworks/27281"
+      "slug": "aic-180206-statue-of-horus",
+      "label": "Statue of Horus",
+      "meta": "Sculpture",
+      "src": "assets/cutout-clippings/aic-180206-statue-of-horus.png",
+      "sourceUrl": "https://www.artic.edu/artworks/180206"
     },
     {
-      "slug": "aic-100712-side-chair",
+      "slug": "aic-7154-dancer-resting-with-a-fan",
+      "label": "Dancer Resting with a Fan",
+      "meta": "Drawing and Watercolor",
+      "src": "assets/cutout-clippings/aic-7154-dancer-resting-with-a-fan.png",
+      "sourceUrl": "https://www.artic.edu/artworks/7154"
+    },
+    {
+      "slug": "aic-144345-timepiece",
+      "label": "Timepiece",
+      "meta": "Furnishings",
+      "src": "assets/cutout-clippings/aic-144345-timepiece.png",
+      "sourceUrl": "https://www.artic.edu/artworks/144345"
+    },
+    {
+      "slug": "aic-14973-side-chair",
       "label": "Side Chair",
       "meta": "Furniture",
-      "src": "assets/cutout-clippings/aic-100712-side-chair.png",
-      "sourceUrl": "https://www.artic.edu/artworks/100712"
+      "src": "assets/cutout-clippings/aic-14973-side-chair.png",
+      "sourceUrl": "https://www.artic.edu/artworks/14973"
     },
     {
-      "slug": "aic-160160-dance-skirt-photographed-with-apron",
-      "label": "Dance Skirt (photographed with Apron)",
-      "meta": "leather/animal skin",
-      "src": "assets/cutout-clippings/aic-160160-dance-skirt-photographed-with-apron.png",
-      "sourceUrl": "https://www.artic.edu/artworks/160160"
-    },
-    {
-      "slug": "aic-13598-aristide-bruant",
-      "label": "Aristide Bruant",
-      "meta": "lithograph",
-      "src": "assets/cutout-clippings/aic-13598-aristide-bruant.png",
-      "sourceUrl": "https://www.artic.edu/artworks/13598"
-    },
-    {
-      "slug": "aic-33053-rocking-chair",
-      "label": "Rocking Chair",
-      "meta": "Furniture",
-      "src": "assets/cutout-clippings/aic-33053-rocking-chair.png",
-      "sourceUrl": "https://www.artic.edu/artworks/33053"
-    },
-    {
-      "slug": "aic-576-fan",
-      "label": "Fan",
-      "meta": "Costume and Accessories",
-      "src": "assets/cutout-clippings/aic-576-fan.png",
-      "sourceUrl": "https://www.artic.edu/artworks/576"
-    },
-    {
-      "slug": "aic-21408-vase-with-stylized-flowers-and-vines",
-      "label": "Vase with Stylized Flowers and Vines",
+      "slug": "aic-87657-chous-toy-pitcher",
+      "label": "Chous (Toy Pitcher)",
       "meta": "Vessel",
-      "src": "assets/cutout-clippings/aic-21408-vase-with-stylized-flowers-and-vines.png",
-      "sourceUrl": "https://www.artic.edu/artworks/21408"
+      "src": "assets/cutout-clippings/aic-87657-chous-toy-pitcher.png",
+      "sourceUrl": "https://www.artic.edu/artworks/87657"
     },
     {
-      "slug": "aic-11790-square-from-a-crazy-quilt",
-      "label": "Square from a 'Crazy Quilt'",
-      "meta": "Textile",
-      "src": "assets/cutout-clippings/aic-11790-square-from-a-crazy-quilt.png",
-      "sourceUrl": "https://www.artic.edu/artworks/11790"
+      "slug": "aic-156887-table-clock",
+      "label": "Table Clock",
+      "meta": "Metalwork",
+      "src": "assets/cutout-clippings/aic-156887-table-clock.png",
+      "sourceUrl": "https://www.artic.edu/artworks/156887"
     },
     {
-      "slug": "aic-198337-amphora-storage-jar",
-      "label": "Amphora (Storage Jar)",
+      "slug": "aic-259-skyphos-drinking-cup",
+      "label": "Skyphos (Drinking Cup)",
       "meta": "Vessel",
-      "src": "assets/cutout-clippings/aic-198337-amphora-storage-jar.png",
-      "sourceUrl": "https://www.artic.edu/artworks/198337"
+      "src": "assets/cutout-clippings/aic-259-skyphos-drinking-cup.png",
+      "sourceUrl": "https://www.artic.edu/artworks/259"
     },
     {
-      "slug": "met-14298-clock",
-      "label": "Clock",
-      "meta": "The American Wing",
-      "src": "assets/cutout-clippings/met-14298-clock.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/14298"
-    },
-    {
-      "slug": "aic-31707-general-george-armstrong-custer",
-      "label": "General George Armstrong Custer",
-      "meta": "carte-de-visite (album",
-      "src": "assets/cutout-clippings/aic-31707-general-george-armstrong-custer.png",
-      "sourceUrl": "https://www.artic.edu/artworks/31707"
-    },
-    {
-      "slug": "aic-19423-folding-shoe-measure",
-      "label": "Folding Shoe Measure",
-      "meta": "Textile",
-      "src": "assets/cutout-clippings/aic-19423-folding-shoe-measure.png",
-      "sourceUrl": "https://www.artic.edu/artworks/19423"
-    },
-    {
-      "slug": "aic-12229-dragon-handled-amphora",
-      "label": "Dragon-Handled Amphora 三彩双龙耳瓶",
-      "meta": "Decorative Arts",
-      "src": "assets/cutout-clippings/aic-12229-dragon-handled-amphora.png",
-      "sourceUrl": "https://www.artic.edu/artworks/12229"
+      "slug": "aic-618-the-arts-ewer-and-basin",
+      "label": "\"The Arts\" Ewer and Basin",
+      "meta": "Metalwork",
+      "src": "assets/cutout-clippings/aic-618-the-arts-ewer-and-basin.png",
+      "sourceUrl": "https://www.artic.edu/artworks/618"
     }
   ]
 }
