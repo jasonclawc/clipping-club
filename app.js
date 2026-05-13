@@ -109,7 +109,6 @@ const limitCount = document.getElementById('limitCount');
 const promptEl = document.getElementById('dailyPrompt');
 const LIMIT = 15;
 let z = 10;
-let backZ = 1;
 let selected = null;
 let activeDrag = null;
 let boardPieces = [];
@@ -335,7 +334,20 @@ function applyTransform(el){
 function select(el){
   if(selected) selected.classList.remove('selected');
   selected = el;
-  if(selected){ selected.classList.add('selected'); selected.style.zIndex = ++z; }
+  if(selected) selected.classList.add('selected');
+}
+
+function normalizeLayers(order = boardPieces){
+  order.forEach((piece, i) => { piece.style.zIndex = String(10 + i); });
+  z = 10 + order.length;
+}
+
+function moveSelectedLayer(where){
+  if(!selected) return;
+  const ordered = [...boardPieces].sort((a, b) => Number(a.style.zIndex || 0) - Number(b.style.zIndex || 0));
+  const without = ordered.filter(p => p !== selected);
+  const next = where === 'front' ? [...without, selected] : [selected, ...without];
+  normalizeLayers(next);
 }
 function wirePiece(piece){
   piece.addEventListener('pointerdown', (e) => {
@@ -432,8 +444,8 @@ function changeSelected({rot=0, scale=0, front=false, back=false, del=false}){
   }
   selected.dataset.rot = parseFloat(selected.dataset.rot) + rot;
   selected.dataset.scale = Math.max(.18, Math.min(5.25, parseFloat(selected.dataset.scale) + scale)).toFixed(2);
-  if(front) selected.style.zIndex = ++z;
-  if(back) selected.style.zIndex = --backZ;
+  if(front) moveSelectedLayer('front');
+  if(back) moveSelectedLayer('back');
   applyTransform(selected);
 }
 
