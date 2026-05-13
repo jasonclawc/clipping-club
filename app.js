@@ -544,9 +544,12 @@ function normalizeLayers(order = boardPieces){
 function moveSelectedLayer(where){
   if(!selected) return;
   const ordered = [...boardPieces].sort((a, b) => Number(a.style.zIndex || 0) - Number(b.style.zIndex || 0));
-  const without = ordered.filter(p => p !== selected);
-  const next = where === 'front' ? [...without, selected] : [selected, ...without];
-  normalizeLayers(next);
+  const index = ordered.indexOf(selected);
+  if(index < 0) return;
+  const target = where === 'front' ? Math.min(ordered.length - 1, index + 1) : Math.max(0, index - 1);
+  if(target === index) return;
+  [ordered[index], ordered[target]] = [ordered[target], ordered[index]];
+  normalizeLayers(ordered);
 }
 function wirePiece(piece){
   piece.addEventListener('pointerdown', (e) => {
@@ -760,8 +763,13 @@ async function drawImagePiece(ctx, p, sx){
   const scale = parseFloat(p.dataset.scale), rot = parseFloat(p.dataset.rot) * Math.PI / 180;
   ctx.save();
   ctx.translate(x + w/2, y + h/2); ctx.rotate(rot); ctx.scale(scale, scale); ctx.translate(-w/2, -h/2);
+  const fit = Math.min(w / img.naturalWidth, h / img.naturalHeight);
+  const drawW = img.naturalWidth * fit;
+  const drawH = img.naturalHeight * fit;
+  const drawX = (w - drawW) / 2;
+  const drawY = (h - drawH) / 2;
   ctx.shadowColor = 'rgba(18,16,13,.58)'; ctx.shadowOffsetX = 7; ctx.shadowOffsetY = 8; ctx.shadowBlur = 0;
-  ctx.drawImage(img, 0, 0, w, h);
+  ctx.drawImage(img, drawX, drawY, drawW, drawH);
   ctx.restore();
 }
 
