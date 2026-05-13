@@ -1,112 +1,112 @@
 {
   "date": "2026-05-13",
   "limit": 15,
-  "generatedAt": "2026-05-13T02:34:00.757305+00:00",
+  "generatedAt": "2026-05-13T09:36:18.302120+00:00",
   "clippings": [
     {
-      "slug": "aic-4749-mrs-george-swinton-elizabeth-ebsworth",
-      "label": "Mrs. George Swinton (Elizabeth Ebsworth)",
-      "meta": "painting",
-      "src": "assets/cutout-clippings/aic-4749-mrs-george-swinton-elizabeth-ebsworth.png",
-      "sourceUrl": "https://www.artic.edu/artworks/4749"
-    },
-    {
-      "slug": "aic-103046-dolls",
-      "label": "Dolls",
-      "meta": "Decorative Arts",
-      "src": "assets/cutout-clippings/aic-103046-dolls.png",
-      "sourceUrl": "https://www.artic.edu/artworks/103046"
-    },
-    {
-      "slug": "met-550814-viscera-figure-with-human-head-imseti",
-      "label": "Viscera figure with human head (Imseti)",
-      "meta": "Egyptian Art",
-      "src": "assets/cutout-clippings/met-550814-viscera-figure-with-human-head-imseti.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/550814"
-    },
-    {
-      "slug": "aic-158-pelike-storage-jar",
-      "label": "Pelike (Storage Jar)",
-      "meta": "Vessel",
-      "src": "assets/cutout-clippings/aic-158-pelike-storage-jar.png",
-      "sourceUrl": "https://www.artic.edu/artworks/158"
-    },
-    {
-      "slug": "aic-120154-still-life-strawberries-nuts-c",
-      "label": "Still Life—Strawberries, Nuts, &c.",
-      "meta": "painting",
-      "src": "assets/cutout-clippings/aic-120154-still-life-strawberries-nuts-c.png",
-      "sourceUrl": "https://www.artic.edu/artworks/120154"
-    },
-    {
-      "slug": "aic-111-martin-vanden-bogaert-desjardins",
-      "label": "Martin Vanden Bogaert Desjardins",
-      "meta": "engraving",
-      "src": "assets/cutout-clippings/aic-111-martin-vanden-bogaert-desjardins.png",
-      "sourceUrl": "https://www.artic.edu/artworks/111"
-    },
-    {
-      "slug": "met-577423-viscera-figure-with-jackal-head-duamutef",
-      "label": "Viscera figure with jackal head (Duamutef)",
-      "meta": "Egyptian Art",
-      "src": "assets/cutout-clippings/met-577423-viscera-figure-with-jackal-head-duamutef.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/577423"
-    },
-    {
-      "slug": "met-20519-brooch",
-      "label": "Brooch",
+      "slug": "met-13722-memorial-to-salome-and-moses-brown",
+      "label": "Memorial to Salome and Moses Brown",
       "meta": "The American Wing",
-      "src": "assets/cutout-clippings/met-20519-brooch.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/20519"
+      "src": "assets/cutout-clippings/met-13722-memorial-to-salome-and-moses-brown.png",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/13722"
     },
     {
-      "slug": "aic-189715-king-vulture",
-      "label": "King Vulture",
-      "meta": "Ceramics",
-      "src": "assets/cutout-clippings/aic-189715-king-vulture.png",
-      "sourceUrl": "https://www.artic.edu/artworks/189715"
+      "slug": "aic-863-pastoral-landscape-with-ruins",
+      "label": "Pastoral Landscape with Ruins",
+      "meta": "Painting",
+      "src": "assets/cutout-clippings/aic-863-pastoral-landscape-with-ruins.png",
+      "sourceUrl": "https://www.artic.edu/artworks/863"
     },
     {
-      "slug": "aic-19432-qabqabs-bath-clogs",
-      "label": "Qabqabs (Bath Clogs)",
+      "slug": "aic-27281-madam-pompadour",
+      "label": "Madam Pompadour",
+      "meta": "Painting",
+      "src": "assets/cutout-clippings/aic-27281-madam-pompadour.png",
+      "sourceUrl": "https://www.artic.edu/artworks/27281"
+    },
+    {
+      "slug": "aic-100712-side-chair",
+      "label": "Side Chair",
+      "meta": "Furniture",
+      "src": "assets/cutout-clippings/aic-100712-side-chair.png",
+      "sourceUrl": "https://www.artic.edu/artworks/100712"
+    },
+    {
+      "slug": "aic-160160-dance-skirt-photographed-with-apron",
+      "label": "Dance Skirt (photographed with Apron)",
+      "meta": "leather/animal skin",
+      "src": "assets/cutout-clippings/aic-160160-dance-skirt-photographed-with-apron.png",
+      "sourceUrl": "https://www.artic.edu/artworks/160160"
+    },
+    {
+      "slug": "aic-13598-aristide-bruant",
+      "label": "Aristide Bruant",
+      "meta": "lithograph",
+      "src": "assets/cutout-clippings/aic-13598-aristide-bruant.png",
+      "sourceUrl": "https://www.artic.edu/artworks/13598"
+    },
+    {
+      "slug": "aic-33053-rocking-chair",
+      "label": "Rocking Chair",
+      "meta": "Furniture",
+      "src": "assets/cutout-clippings/aic-33053-rocking-chair.png",
+      "sourceUrl": "https://www.artic.edu/artworks/33053"
+    },
+    {
+      "slug": "aic-576-fan",
+      "label": "Fan",
+      "meta": "Costume and Accessories",
+      "src": "assets/cutout-clippings/aic-576-fan.png",
+      "sourceUrl": "https://www.artic.edu/artworks/576"
+    },
+    {
+      "slug": "aic-21408-vase-with-stylized-flowers-and-vines",
+      "label": "Vase with Stylized Flowers and Vines",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-21408-vase-with-stylized-flowers-and-vines.png",
+      "sourceUrl": "https://www.artic.edu/artworks/21408"
+    },
+    {
+      "slug": "aic-11790-square-from-a-crazy-quilt",
+      "label": "Square from a 'Crazy Quilt'",
       "meta": "Textile",
-      "src": "assets/cutout-clippings/aic-19432-qabqabs-bath-clogs.png",
-      "sourceUrl": "https://www.artic.edu/artworks/19432"
+      "src": "assets/cutout-clippings/aic-11790-square-from-a-crazy-quilt.png",
+      "sourceUrl": "https://www.artic.edu/artworks/11790"
     },
     {
-      "slug": "met-577430-viscera-figure-with-falcon-head-qebehsenuef",
-      "label": "Viscera figure with falcon head (Qebehsenu",
-      "meta": "Egyptian Art",
-      "src": "assets/cutout-clippings/met-577430-viscera-figure-with-falcon-head-qebehsenuef.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/577430"
+      "slug": "aic-198337-amphora-storage-jar",
+      "label": "Amphora (Storage Jar)",
+      "meta": "Vessel",
+      "src": "assets/cutout-clippings/aic-198337-amphora-storage-jar.png",
+      "sourceUrl": "https://www.artic.edu/artworks/198337"
     },
     {
-      "slug": "aic-55833-covered-food-container",
-      "label": "Covered Food Container",
-      "meta": "vessel",
-      "src": "assets/cutout-clippings/aic-55833-covered-food-container.png",
-      "sourceUrl": "https://www.artic.edu/artworks/55833"
+      "slug": "met-14298-clock",
+      "label": "Clock",
+      "meta": "The American Wing",
+      "src": "assets/cutout-clippings/met-14298-clock.png",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/14298"
     },
     {
-      "slug": "aic-234687-tureen",
-      "label": "Tureen",
-      "meta": "vessel for serving foo",
-      "src": "assets/cutout-clippings/aic-234687-tureen.png",
-      "sourceUrl": "https://www.artic.edu/artworks/234687"
+      "slug": "aic-31707-general-george-armstrong-custer",
+      "label": "General George Armstrong Custer",
+      "meta": "carte-de-visite (album",
+      "src": "assets/cutout-clippings/aic-31707-general-george-armstrong-custer.png",
+      "sourceUrl": "https://www.artic.edu/artworks/31707"
     },
     {
-      "slug": "met-548246-viscera-figure-with-human-head-imseti",
-      "label": "Viscera figure with human head (Imseti)",
-      "meta": "Egyptian Art",
-      "src": "assets/cutout-clippings/met-548246-viscera-figure-with-human-head-imseti.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548246"
+      "slug": "aic-19423-folding-shoe-measure",
+      "label": "Folding Shoe Measure",
+      "meta": "Textile",
+      "src": "assets/cutout-clippings/aic-19423-folding-shoe-measure.png",
+      "sourceUrl": "https://www.artic.edu/artworks/19423"
     },
     {
-      "slug": "met-577422-viscera-figure-with-baboon-head-hapy",
-      "label": "Viscera figure with baboon head (Hapy)",
-      "meta": "Egyptian Art",
-      "src": "assets/cutout-clippings/met-577422-viscera-figure-with-baboon-head-hapy.png",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/577422"
+      "slug": "aic-12229-dragon-handled-amphora",
+      "label": "Dragon-Handled Amphora 三彩双龙耳瓶",
+      "meta": "Decorative Arts",
+      "src": "assets/cutout-clippings/aic-12229-dragon-handled-amphora.png",
+      "sourceUrl": "https://www.artic.edu/artworks/12229"
     }
   ]
 }
