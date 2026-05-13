@@ -9,7 +9,7 @@
   },
   {
     "slug": "met-433565-poster-for-raynaud-fr-res",
-    "label": "Poster for Raynaud Fr\u00e8res",
+    "label": "Poster for Raynaud Frères",
     "meta": "Drawings and Prints",
     "src": "assets/real-clippings/met-433565-poster-for-raynaud-fr-res.png",
     "source": "https://www.metmuseum.org/art/collection/search/433565",
@@ -33,7 +33,7 @@
   },
   {
     "slug": "met-188817-advertisement-for-the-m-ller-potteries-at-ivry",
-    "label": "Advertisement for the M\u00fcller Potteries at ",
+    "label": "Advertisement for the Müller Potteries at ",
     "meta": "European Sculpture and",
     "src": "assets/real-clippings/met-188817-advertisement-for-the-m-ller-potteries-at-ivry.png",
     "source": "https://www.metmuseum.org/art/collection/search/188817",
@@ -321,7 +321,7 @@
   },
   {
     "slug": "aic-13591-la-vache-enrag-e",
-    "label": "La vache enrag\u00e9e",
+    "label": "La vache enragée",
     "meta": "lithograph",
     "src": "assets/real-clippings/aic-13591-la-vache-enrag-e.png",
     "source": "https://www.artic.edu/artworks/13591",
@@ -385,7 +385,7 @@
   },
   {
     "slug": "aic-27992-a-sunday-on-la-grande-jatte-1884",
-    "label": "A Sunday on La Grande Jatte \u2014 1884",
+    "label": "A Sunday on La Grande Jatte — 1884",
     "meta": "oil on canvas",
     "src": "assets/real-clippings/aic-27992-a-sunday-on-la-grande-jatte-1884.png",
     "source": "https://www.artic.edu/artworks/27992",
@@ -457,7 +457,7 @@
   },
   {
     "slug": "aic-66489-georgia-o-keeffe-torso",
-    "label": "Georgia O'Keeffe\u2014Torso",
+    "label": "Georgia O'Keeffe—Torso",
     "meta": "gelatin silver (develo",
     "src": "assets/real-clippings/aic-66489-georgia-o-keeffe-torso.png",
     "source": "https://www.artic.edu/artworks/66489",
@@ -521,7 +521,7 @@
   },
   {
     "slug": "aic-24-portrait-of-edouard-mol",
-    "label": "Portrait of Edouard Mol\u00e9",
+    "label": "Portrait of Edouard Molé",
     "meta": "engraving",
     "src": "assets/real-clippings/aic-24-portrait-of-edouard-mol.png",
     "source": "https://www.artic.edu/artworks/24",
@@ -585,7 +585,7 @@
   },
   {
     "slug": "aic-120154-still-life-strawberries-nuts-c",
-    "label": "Still Life\u2014Strawberries, Nuts, &c.",
+    "label": "Still Life—Strawberries, Nuts, &c.",
     "meta": "painting",
     "src": "assets/real-clippings/aic-120154-still-life-strawberries-nuts-c.png",
     "source": "https://www.artic.edu/artworks/120154",
@@ -758,5 +758,355 @@
     "src": "assets/real-clippings/aic-19083-shoe.png",
     "source": "https://www.artic.edu/artworks/19083",
     "credit": "Art Institute of Chicago, public domain"
+  },
+  {
+    "slug": "aic-136740-funerary-mask",
+    "label": "Funerary Mask",
+    "meta": "Funerary Object",
+    "file": "assets/real-clippings/aic-136740-funerary-mask.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/136740",
+    "imageId": "6ff83986-8938-20c2-c0c3-82f34ae0035f",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-181740-male-face-mask-chihongo",
+    "label": "Male Face Mask (Chihongo)",
+    "meta": "Mask",
+    "file": "assets/real-clippings/aic-181740-male-face-mask-chihongo.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/181740",
+    "imageId": "65010653-87cb-a15c-1803-bca5b6617a75",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-212967-face",
+    "label": "Face",
+    "meta": "Sculpture",
+    "file": "assets/real-clippings/aic-212967-face.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/212967",
+    "imageId": "ac383837-c925-af46-0833-f7ac8595a68d",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-576-fan",
+    "label": "Fan",
+    "meta": "Costume and Accessories",
+    "file": "assets/real-clippings/aic-576-fan.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/576",
+    "imageId": "13ec274d-ce05-b55d-88ee-c716b6b6a5c8",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-245-oinochoe-pitcher",
+    "label": "Oinochoe (Pitcher)",
+    "meta": "Vessel",
+    "file": "assets/real-clippings/aic-245-oinochoe-pitcher.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/245",
+    "imageId": "229b278b-bbce-c26e-01e6-e33489494317",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-38666-the-water-fan",
+    "label": "The Water Fan",
+    "meta": "Drawing and Watercolor",
+    "file": "assets/real-clippings/aic-38666-the-water-fan.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/38666",
+    "imageId": "1de73bb7-52d6-e099-f4e1-763e201e78fa",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-15906-man-s-boots",
+    "label": "Man's Boots",
+    "meta": "Costume and Accessories",
+    "file": "assets/real-clippings/aic-15906-man-s-boots.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/15906",
+    "imageId": "036bca90-506b-0230-044f-8dcf85c877a0",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-15910-woman-s-shoes",
+    "label": "Woman's Shoes",
+    "meta": "Costume and Accessories",
+    "file": "assets/real-clippings/aic-15910-woman-s-shoes.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/15910",
+    "imageId": "0655410d-43d5-9b3f-4af4-bff8276ce10d",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-19432-qabqabs-bath-clogs",
+    "label": "Qabqabs (Bath Clogs)",
+    "meta": "Textile",
+    "file": "assets/real-clippings/aic-19432-qabqabs-bath-clogs.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/19432",
+    "imageId": "3f98b68b-2104-164d-3359-bd3290d15632",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-19423-folding-shoe-measure",
+    "label": "Folding Shoe Measure",
+    "meta": "Textile",
+    "file": "assets/real-clippings/aic-19423-folding-shoe-measure.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/19423",
+    "imageId": "9c30791e-0edd-8cb6-eea8-16854f499bf3",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-27281-madam-pompadour",
+    "label": "Madam Pompadour",
+    "meta": "Painting",
+    "file": "assets/real-clippings/aic-27281-madam-pompadour.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/27281",
+    "imageId": "fdc1a755-ff86-487d-f16b-f03c40a30bee",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-135-jar-with-tubular-handles-peonies-endless-knot-pendant-ball",
+    "label": "Jar with Tubular Handles, Peonies, “Endless Knot,” Pendant Balls, and ",
+    "meta": "Vessel",
+    "file": "assets/real-clippings/aic-135-jar-with-tubular-handles-peonies-endless-knot-pendant-ball.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/135",
+    "imageId": "abf4b078-b26b-e69c-d689-8aab2d5fa075",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-68769-vase-vase-trusque-rouleau",
+    "label": "Vase (Vase étrusque à rouleau)",
+    "meta": "Ceramics",
+    "file": "assets/real-clippings/aic-68769-vase-vase-trusque-rouleau.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/68769",
+    "imageId": "b6a9355f-aca4-b264-772f-a86ec22731e5",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-151387-vase-with-cover",
+    "label": "Vase with Cover",
+    "meta": "Ceramics",
+    "file": "assets/real-clippings/aic-151387-vase-with-cover.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/151387",
+    "imageId": "2a6cb022-d323-bf2c-f5cc-af719f86f444",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-10896-vase-vase-oreilles",
+    "label": "Vase (Vase à Oreilles)",
+    "meta": "Ceramics",
+    "file": "assets/real-clippings/aic-10896-vase-vase-oreilles.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/10896",
+    "imageId": "96312173-a863-4e4b-434a-4d853c422c7f",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-6681-flower-vase-one-of-a-pair",
+    "label": "Flower Vase (one of a pair)",
+    "meta": "Ceramics",
+    "file": "assets/real-clippings/aic-6681-flower-vase-one-of-a-pair.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/6681",
+    "imageId": "40e316d0-493c-98d2-cf85-33d1e0a70fa9",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-12229-dragon-handled-amphora",
+    "label": "Dragon-Handled Amphora 三彩双龙耳瓶",
+    "meta": "Decorative Arts",
+    "file": "assets/real-clippings/aic-12229-dragon-handled-amphora.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/12229",
+    "imageId": "7f0b217b-a6c0-06ea-cf95-db619df3760a",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-33053-rocking-chair",
+    "label": "Rocking Chair",
+    "meta": "Furniture",
+    "file": "assets/real-clippings/aic-33053-rocking-chair.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/33053",
+    "imageId": "2a491673-72e1-34a9-8e2a-b45a6e0da51f",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-121781-chair",
+    "label": "Chair",
+    "meta": "Furniture",
+    "file": "assets/real-clippings/aic-121781-chair.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/121781",
+    "imageId": "6482a473-ac30-302b-5ad5-c395376ee545",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-189715-king-vulture",
+    "label": "King Vulture",
+    "meta": "Ceramics",
+    "file": "assets/real-clippings/aic-189715-king-vulture.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/189715",
+    "imageId": "4216354e-9c12-4129-a43f-a5c114fb95f1",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-1601-panel-judith-with-the-head-of-holofernes-possibly-from-an",
+    "label": "Panel (Judith with the head of Holofernes, Possibly from an Altar Fron",
+    "meta": "Textile",
+    "file": "assets/real-clippings/aic-1601-panel-judith-with-the-head-of-holofernes-possibly-from-an.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/1601",
+    "imageId": "29ca142c-9294-b70b-c443-86b3877f02f9",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-181-amphora-storage-jar",
+    "label": "Amphora (Storage Jar)",
+    "meta": "Vessel",
+    "file": "assets/real-clippings/aic-181-amphora-storage-jar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/181",
+    "imageId": "d8fab7c6-8cc9-1c02-18db-0f198775ccc9",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-198337-amphora-storage-jar",
+    "label": "Amphora (Storage Jar)",
+    "meta": "Vessel",
+    "file": "assets/real-clippings/aic-198337-amphora-storage-jar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/198337",
+    "imageId": "ea80aeee-859c-9577-af83-1b7fef0bf17c",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-885-a-mounted-officer",
+    "label": "A Mounted Officer",
+    "meta": "Painting",
+    "file": "assets/real-clippings/aic-885-a-mounted-officer.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/885",
+    "imageId": "9c1e2826-e79b-4b4d-73f9-2ba8c8b00180",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-81533-the-races-at-longchamp",
+    "label": "The Races at Longchamp",
+    "meta": "Painting",
+    "file": "assets/real-clippings/aic-81533-the-races-at-longchamp.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/81533",
+    "imageId": "e9ce5aca-4c34-c8dd-b8a1-91b3e3197211",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-145840-cheval-turk",
+    "label": "Cheval Turk",
+    "meta": "Sculpture",
+    "file": "assets/real-clippings/aic-145840-cheval-turk.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/145840",
+    "imageId": "536df30f-02c0-972d-2141-9dc4542e3a8c",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-181145-cup-in-the-form-of-a-horse-and-rider",
+    "label": "Cup in the Form of a Horse and Rider",
+    "meta": "Metalwork",
+    "file": "assets/real-clippings/aic-181145-cup-in-the-form-of-a-horse-and-rider.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/181145",
+    "imageId": "1dcb1fd9-8254-8098-586c-e5b117c00871",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-106327-pair-of-rowel-spurs",
+    "label": "Pair of Rowel Spurs",
+    "meta": "Armor",
+    "file": "assets/real-clippings/aic-106327-pair-of-rowel-spurs.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/106327",
+    "imageId": "c25a0a3d-d45d-19a5-cb0d-6921e162ca5e",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-10083-dupondius-coin-portraying-germanicus-caesar",
+    "label": "Dupondius (Coin) Portraying Germanicus Caesar",
+    "meta": "Coin",
+    "file": "assets/real-clippings/aic-10083-dupondius-coin-portraying-germanicus-caesar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/10083",
+    "imageId": "09c7e9d9-7c3e-fe62-d236-108d44710612",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-158-pelike-storage-jar",
+    "label": "Pelike (Storage Jar)",
+    "meta": "Vessel",
+    "file": "assets/real-clippings/aic-158-pelike-storage-jar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/158",
+    "imageId": "48d485ec-6102-b7ec-062c-8b351055ca5f",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-40724-the-offering-of-the-boar-s-head-from-the-story-of-meleager",
+    "label": "The Offering of the Boar's Head from The Story of Meleager and Atalant",
+    "meta": "Textile",
+    "file": "assets/real-clippings/aic-40724-the-offering-of-the-boar-s-head-from-the-story-of-meleager.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/40724",
+    "imageId": "fadf6188-07a0-d37a-f119-b0b9fc33c902",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-896-the-road-to-market",
+    "label": "The Road to Market",
+    "meta": "Painting",
+    "file": "assets/real-clippings/aic-896-the-road-to-market.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/896",
+    "imageId": "6aaa3537-abbf-f49e-877f-4d8e8e4d50c2",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-9028-torso-from-a-doll",
+    "label": "Torso From a Doll",
+    "meta": "Sculpture",
+    "file": "assets/real-clippings/aic-9028-torso-from-a-doll.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/9028",
+    "imageId": "9bd5c183-5ad3-bf94-5e90-182b1069209f",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-103045-dolls",
+    "label": "Dolls",
+    "meta": "Decorative Arts",
+    "file": "assets/real-clippings/aic-103045-dolls.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/103045",
+    "imageId": "8f99b50d-8f2f-fb8f-ba69-12cf240bffb9",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-103046-dolls",
+    "label": "Dolls",
+    "meta": "Decorative Arts",
+    "file": "assets/real-clippings/aic-103046-dolls.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/103046",
+    "imageId": "f5b62133-16a0-7188-56b9-cad4290f3bcc",
+    "publicDomain": true
   }
 ]

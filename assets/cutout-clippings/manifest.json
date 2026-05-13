@@ -1,320 +1,1040 @@
 [
   {
     "file": "assets/cutout-clippings/aic-102777-abigail-chesebrough-mrs-alexander-grant.png",
-    "sourceFile": "assets/real-clippings/aic-102777-abigail-chesebrough-mrs-alexander-grant.png",
     "alphaRatio": 0.406,
-    "bboxArea": 0.808
+    "bboxArea": 0.808,
+    "slug": "aic-102777-abigail-chesebrough-mrs-alexander-grant",
+    "label": "Abigail Chesebrough (Mrs. Alexander Grant)",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/102777",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/102777"
   },
   {
     "file": "assets/cutout-clippings/aic-10410-tazza.png",
-    "sourceFile": "assets/real-clippings/aic-10410-tazza.png",
     "alphaRatio": 0.25,
-    "bboxArea": 0.414
+    "bboxArea": 0.414,
+    "slug": "aic-10410-tazza",
+    "label": "Tazza",
+    "meta": "vessel for serving foo",
+    "source": "https://www.artic.edu/artworks/10410",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/10410"
   },
   {
     "file": "assets/cutout-clippings/aic-106279-garniture-for-field-and-foot-tourney-at-the-barriers.png",
-    "sourceFile": "assets/real-clippings/aic-106279-garniture-for-field-and-foot-tourney-at-the-barriers.png",
     "alphaRatio": 0.431,
-    "bboxArea": 0.721
+    "bboxArea": 0.721,
+    "slug": "aic-106279-garniture-for-field-and-foot-tourney-at-the-barriers",
+    "label": "Garniture for Field and Foot Tourney at th",
+    "meta": "suit",
+    "source": "https://www.artic.edu/artworks/106279",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/106279"
   },
   {
     "file": "assets/cutout-clippings/aic-111-martin-vanden-bogaert-desjardins.png",
-    "sourceFile": "assets/real-clippings/aic-111-martin-vanden-bogaert-desjardins.png",
     "alphaRatio": 0.523,
-    "bboxArea": 0.879
+    "bboxArea": 0.879,
+    "slug": "aic-111-martin-vanden-bogaert-desjardins",
+    "label": "Martin Vanden Bogaert Desjardins",
+    "meta": "engraving",
+    "source": "https://www.artic.edu/artworks/111",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/111"
   },
   {
     "file": "assets/cutout-clippings/aic-11344-sadie-pfeifer-a-cotton-mill-spinner-lancaster-south-.png",
-    "sourceFile": "assets/real-clippings/aic-11344-sadie-pfeifer-a-cotton-mill-spinner-lancaster-south-.png",
     "alphaRatio": 0.115,
-    "bboxArea": 0.806
+    "bboxArea": 0.806,
+    "slug": "aic-11344-sadie-pfeifer-a-cotton-mill-spinner-lancaster-south-",
+    "label": "Sadie Pfeifer, a Cotton Mill Spinner, Lanc",
+    "meta": "gelatin silver (develo",
+    "source": "https://www.artic.edu/artworks/11344",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/11344"
   },
   {
     "file": "assets/cutout-clippings/aic-120154-still-life-strawberries-nuts-c.png",
-    "sourceFile": "assets/real-clippings/aic-120154-still-life-strawberries-nuts-c.png",
     "alphaRatio": 0.39,
-    "bboxArea": 0.884
+    "bboxArea": 0.884,
+    "slug": "aic-120154-still-life-strawberries-nuts-c",
+    "label": "Still Life—Strawberries, Nuts, &c.",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/120154",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/120154"
   },
   {
     "file": "assets/cutout-clippings/aic-126336-captain-verschoyle-grenadier-guards-an-early-photogr.png",
-    "sourceFile": "assets/real-clippings/aic-126336-captain-verschoyle-grenadier-guards-an-early-photogr.png",
     "alphaRatio": 0.319,
-    "bboxArea": 0.796
+    "bboxArea": 0.796,
+    "slug": "aic-126336-captain-verschoyle-grenadier-guards-an-early-photogr",
+    "label": "Captain Verschoyle, Grenadier Guards (an E",
+    "meta": "albumen silver print",
+    "source": "https://www.artic.edu/artworks/126336",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/126336"
   },
   {
     "file": "assets/cutout-clippings/aic-13598-aristide-bruant.png",
-    "sourceFile": "assets/real-clippings/aic-13598-aristide-bruant.png",
     "alphaRatio": 0.268,
-    "bboxArea": 0.789
+    "bboxArea": 0.789,
+    "slug": "aic-13598-aristide-bruant",
+    "label": "Aristide Bruant",
+    "meta": "lithograph",
+    "source": "https://www.artic.edu/artworks/13598",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/13598"
   },
   {
     "file": "assets/cutout-clippings/aic-143683-handkerchief.png",
-    "sourceFile": "assets/real-clippings/aic-143683-handkerchief.png",
     "alphaRatio": 0.495,
-    "bboxArea": 0.728
+    "bboxArea": 0.728,
+    "slug": "aic-143683-handkerchief",
+    "label": "Handkerchief",
+    "meta": "textile",
+    "source": "https://www.artic.edu/artworks/143683",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/143683"
   },
   {
     "file": "assets/cutout-clippings/aic-156596-fruit-piece.png",
-    "sourceFile": "assets/real-clippings/aic-156596-fruit-piece.png",
     "alphaRatio": 0.622,
-    "bboxArea": 0.819
+    "bboxArea": 0.819,
+    "slug": "aic-156596-fruit-piece",
+    "label": "Fruit Piece",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/156596",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/156596"
   },
   {
     "file": "assets/cutout-clippings/aic-160160-dance-skirt-photographed-with-apron.png",
-    "sourceFile": "assets/real-clippings/aic-160160-dance-skirt-photographed-with-apron.png",
     "alphaRatio": 0.51,
-    "bboxArea": 0.731
+    "bboxArea": 0.731,
+    "slug": "aic-160160-dance-skirt-photographed-with-apron",
+    "label": "Dance Skirt (photographed with Apron)",
+    "meta": "leather/animal skin",
+    "source": "https://www.artic.edu/artworks/160160",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/160160"
   },
   {
     "file": "assets/cutout-clippings/aic-19-view-of-ponte-lugano-on-the-anio-from-views-of-rome.png",
-    "sourceFile": "assets/real-clippings/aic-19-view-of-ponte-lugano-on-the-anio-from-views-of-rome.png",
     "alphaRatio": 0.457,
-    "bboxArea": 0.873
+    "bboxArea": 0.873,
+    "slug": "aic-19-view-of-ponte-lugano-on-the-anio-from-views-of-rome",
+    "label": "View of Ponte Lugano on the Anio, from Vie",
+    "meta": "etching",
+    "source": "https://www.artic.edu/artworks/19",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/19"
   },
   {
     "file": "assets/cutout-clippings/aic-19333-kitchen-still-life.png",
-    "sourceFile": "assets/real-clippings/aic-19333-kitchen-still-life.png",
     "alphaRatio": 0.428,
-    "bboxArea": 0.726
+    "bboxArea": 0.726,
+    "slug": "aic-19333-kitchen-still-life",
+    "label": "Kitchen Still Life",
+    "meta": "oil on canvas",
+    "source": "https://www.artic.edu/artworks/19333",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/19333"
   },
   {
     "file": "assets/cutout-clippings/aic-20-it-rocks-but-is-not-sunk.png",
-    "sourceFile": "assets/real-clippings/aic-20-it-rocks-but-is-not-sunk.png",
     "alphaRatio": 0.556,
-    "bboxArea": 0.818
+    "bboxArea": 0.818,
+    "slug": "aic-20-it-rocks-but-is-not-sunk",
+    "label": "It Rocks but is Not Sunk",
+    "meta": "etching",
+    "source": "https://www.artic.edu/artworks/20",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/20"
   },
   {
     "file": "assets/cutout-clippings/aic-213791-new-patented-umbrella-with-an-improved-spring-system.png",
-    "sourceFile": "assets/real-clippings/aic-213791-new-patented-umbrella-with-an-improved-spring-system.png",
     "alphaRatio": 0.512,
-    "bboxArea": 0.538
+    "bboxArea": 0.538,
+    "slug": "aic-213791-new-patented-umbrella-with-an-improved-spring-system",
+    "label": "New patented umbrella, with an improved sp",
+    "meta": "lithograph",
+    "source": "https://www.artic.edu/artworks/213791",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/213791"
   },
   {
     "file": "assets/cutout-clippings/aic-215528-street-advertising.png",
-    "sourceFile": "assets/real-clippings/aic-215528-street-advertising.png",
     "alphaRatio": 0.326,
-    "bboxArea": 0.782
+    "bboxArea": 0.782,
+    "slug": "aic-215528-street-advertising",
+    "label": "Street Advertising",
+    "meta": "photograph",
+    "source": "https://www.artic.edu/artworks/215528",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/215528"
   },
   {
     "file": "assets/cutout-clippings/aic-234687-tureen.png",
-    "sourceFile": "assets/real-clippings/aic-234687-tureen.png",
     "alphaRatio": 0.322,
-    "bboxArea": 0.577
+    "bboxArea": 0.577,
+    "slug": "aic-234687-tureen",
+    "label": "Tureen",
+    "meta": "vessel for serving foo",
+    "source": "https://www.artic.edu/artworks/234687",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/234687"
   },
   {
     "file": "assets/cutout-clippings/aic-24-portrait-of-edouard-mol.png",
-    "sourceFile": "assets/real-clippings/aic-24-portrait-of-edouard-mol.png",
     "alphaRatio": 0.314,
-    "bboxArea": 0.797
+    "bboxArea": 0.797,
+    "slug": "aic-24-portrait-of-edouard-mol",
+    "label": "Portrait of Edouard Molé",
+    "meta": "engraving",
+    "source": "https://www.artic.edu/artworks/24",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/24"
   },
   {
     "file": "assets/cutout-clippings/aic-24320-collar-made-from-border.png",
-    "sourceFile": "assets/real-clippings/aic-24320-collar-made-from-border.png",
     "alphaRatio": 0.512,
-    "bboxArea": 0.749
+    "bboxArea": 0.749,
+    "slug": "aic-24320-collar-made-from-border",
+    "label": "Collar (Made from Border)",
+    "meta": "textile",
+    "source": "https://www.artic.edu/artworks/24320",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/24320"
   },
   {
     "file": "assets/cutout-clippings/aic-25865-the-herring-net.png",
-    "sourceFile": "assets/real-clippings/aic-25865-the-herring-net.png",
     "alphaRatio": 0.195,
-    "bboxArea": 0.588
+    "bboxArea": 0.588,
+    "slug": "aic-25865-the-herring-net",
+    "label": "The Herring Net",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/25865",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/25865"
   },
   {
     "file": "assets/cutout-clippings/aic-27-remembrance-of-italy.png",
-    "sourceFile": "assets/real-clippings/aic-27-remembrance-of-italy.png",
     "alphaRatio": 0.383,
-    "bboxArea": 0.712
+    "bboxArea": 0.712,
+    "slug": "aic-27-remembrance-of-italy",
+    "label": "Remembrance of Italy",
+    "meta": "etching",
+    "source": "https://www.artic.edu/artworks/27",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/27"
   },
   {
     "file": "assets/cutout-clippings/aic-27047-a-scene-in-york-york-minster-from-lop-lane.png",
-    "sourceFile": "assets/real-clippings/aic-27047-a-scene-in-york-york-minster-from-lop-lane.png",
     "alphaRatio": 0.31,
-    "bboxArea": 0.333
+    "bboxArea": 0.333,
+    "slug": "aic-27047-a-scene-in-york-york-minster-from-lop-lane",
+    "label": "\"A Scene in York\" - York Minster from Lop ",
+    "meta": "salted paper print",
+    "source": "https://www.artic.edu/artworks/27047",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/27047"
   },
   {
     "file": "assets/cutout-clippings/aic-31707-general-george-armstrong-custer.png",
-    "sourceFile": "assets/real-clippings/aic-31707-general-george-armstrong-custer.png",
     "alphaRatio": 0.089,
-    "bboxArea": 0.176
+    "bboxArea": 0.176,
+    "slug": "aic-31707-general-george-armstrong-custer",
+    "label": "General George Armstrong Custer",
+    "meta": "carte-de-visite (album",
+    "source": "https://www.artic.edu/artworks/31707",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/31707"
   },
   {
     "file": "assets/cutout-clippings/aic-34078-food-container.png",
-    "sourceFile": "assets/real-clippings/aic-34078-food-container.png",
     "alphaRatio": 0.348,
-    "bboxArea": 0.488
+    "bboxArea": 0.488,
+    "slug": "aic-34078-food-container",
+    "label": "Food container",
+    "meta": "vessel",
+    "source": "https://www.artic.edu/artworks/34078",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/34078"
   },
   {
     "file": "assets/cutout-clippings/aic-37423-covered-food-container.png",
-    "sourceFile": "assets/real-clippings/aic-37423-covered-food-container.png",
     "alphaRatio": 0.279,
-    "bboxArea": 0.427
+    "bboxArea": 0.427,
+    "slug": "aic-37423-covered-food-container",
+    "label": "Covered Food Container",
+    "meta": "vessel",
+    "source": "https://www.artic.edu/artworks/37423",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/37423"
   },
   {
     "file": "assets/cutout-clippings/aic-4749-mrs-george-swinton-elizabeth-ebsworth.png",
-    "sourceFile": "assets/real-clippings/aic-4749-mrs-george-swinton-elizabeth-ebsworth.png",
     "alphaRatio": 0.312,
-    "bboxArea": 0.85
+    "bboxArea": 0.85,
+    "slug": "aic-4749-mrs-george-swinton-elizabeth-ebsworth",
+    "label": "Mrs. George Swinton (Elizabeth Ebsworth)",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/4749",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/4749"
   },
   {
     "file": "assets/cutout-clippings/aic-55833-covered-food-container.png",
-    "sourceFile": "assets/real-clippings/aic-55833-covered-food-container.png",
     "alphaRatio": 0.351,
-    "bboxArea": 0.546
+    "bboxArea": 0.546,
+    "slug": "aic-55833-covered-food-container",
+    "label": "Covered Food Container",
+    "meta": "vessel",
+    "source": "https://www.artic.edu/artworks/55833",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/55833"
   },
   {
     "file": "assets/cutout-clippings/aic-60294-new-york-street.png",
-    "sourceFile": "assets/real-clippings/aic-60294-new-york-street.png",
     "alphaRatio": 0.08,
-    "bboxArea": 0.69
+    "bboxArea": 0.69,
+    "slug": "aic-60294-new-york-street",
+    "label": "New York Street",
+    "meta": "oil on canvas",
+    "source": "https://www.artic.edu/artworks/60294",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/60294"
   },
   {
     "file": "assets/cutout-clippings/aic-65-fishing-craft-near-the-cliffs-at-collioure.png",
-    "sourceFile": "assets/real-clippings/aic-65-fishing-craft-near-the-cliffs-at-collioure.png",
     "alphaRatio": 0.214,
-    "bboxArea": 0.649
+    "bboxArea": 0.649,
+    "slug": "aic-65-fishing-craft-near-the-cliffs-at-collioure",
+    "label": "Fishing Craft near the Cliffs at Collioure",
+    "meta": "etching",
+    "source": "https://www.artic.edu/artworks/65",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/65"
   },
   {
     "file": "assets/cutout-clippings/aic-66489-georgia-o-keeffe-torso.png",
-    "sourceFile": "assets/real-clippings/aic-66489-georgia-o-keeffe-torso.png",
     "alphaRatio": 0.434,
-    "bboxArea": 0.829
+    "bboxArea": 0.829,
+    "slug": "aic-66489-georgia-o-keeffe-torso",
+    "label": "Georgia O'Keeffe—Torso",
+    "meta": "gelatin silver (develo",
+    "source": "https://www.artic.edu/artworks/66489",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/66489"
   },
   {
     "file": "assets/cutout-clippings/aic-7934-platter.png",
-    "sourceFile": "assets/real-clippings/aic-7934-platter.png",
     "alphaRatio": 0.528,
-    "bboxArea": 0.69
+    "bboxArea": 0.69,
+    "slug": "aic-7934-platter",
+    "label": "Platter",
+    "meta": "vessel for serving foo",
+    "source": "https://www.artic.edu/artworks/7934",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/7934"
   },
   {
     "file": "assets/cutout-clippings/aic-81561-street-in-moret.png",
-    "sourceFile": "assets/real-clippings/aic-81561-street-in-moret.png",
     "alphaRatio": 0.221,
-    "bboxArea": 0.665
+    "bboxArea": 0.665,
+    "slug": "aic-81561-street-in-moret",
+    "label": "Street in Moret",
+    "meta": "oil on canvas",
+    "source": "https://www.artic.edu/artworks/81561",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/81561"
   },
   {
     "file": "assets/cutout-clippings/aic-88629-reine-de-joie.png",
-    "sourceFile": "assets/real-clippings/aic-88629-reine-de-joie.png",
     "alphaRatio": 0.399,
-    "bboxArea": 0.851
+    "bboxArea": 0.851,
+    "slug": "aic-88629-reine-de-joie",
+    "label": "Reine de Joie",
+    "meta": "lithograph",
+    "source": "https://www.artic.edu/artworks/88629",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/88629"
   },
   {
     "file": "assets/cutout-clippings/aic-9-interior-of-st-mark-s-venice.png",
-    "sourceFile": "assets/real-clippings/aic-9-interior-of-st-mark-s-venice.png",
     "alphaRatio": 0.364,
-    "bboxArea": 0.85
+    "bboxArea": 0.85,
+    "slug": "aic-9-interior-of-st-mark-s-venice",
+    "label": "Interior of St. Mark's, Venice",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/9",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/9"
   },
   {
     "file": "assets/cutout-clippings/aic-97907-a-mexican-vaquero.png",
-    "sourceFile": "assets/real-clippings/aic-97907-a-mexican-vaquero.png",
     "alphaRatio": 0.192,
-    "bboxArea": 0.482
+    "bboxArea": 0.482,
+    "slug": "aic-97907-a-mexican-vaquero",
+    "label": "A Mexican Vaquero",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/97907",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/97907"
   },
   {
     "file": "assets/cutout-clippings/aic-97912-the-mexican-major.png",
-    "sourceFile": "assets/real-clippings/aic-97912-the-mexican-major.png",
     "alphaRatio": 0.463,
-    "bboxArea": 0.901
+    "bboxArea": 0.901,
+    "slug": "aic-97912-the-mexican-major",
+    "label": "The Mexican Major",
+    "meta": "painting",
+    "source": "https://www.artic.edu/artworks/97912",
+    "credit": "Art Institute of Chicago, public domain",
+    "sourceUrl": "https://www.artic.edu/artworks/97912"
   },
   {
     "file": "assets/cutout-clippings/met-13722-memorial-to-salome-and-moses-brown.png",
-    "sourceFile": "assets/real-clippings/met-13722-memorial-to-salome-and-moses-brown.png",
     "alphaRatio": 0.51,
-    "bboxArea": 0.639
+    "bboxArea": 0.639,
+    "slug": "met-13722-memorial-to-salome-and-moses-brown",
+    "label": "Memorial to Salome and Moses Brown",
+    "meta": "The American Wing",
+    "source": "https://www.metmuseum.org/art/collection/search/13722",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/13722"
   },
   {
     "file": "assets/cutout-clippings/met-14298-clock.png",
-    "sourceFile": "assets/real-clippings/met-14298-clock.png",
     "alphaRatio": 0.174,
-    "bboxArea": 0.31
+    "bboxArea": 0.31,
+    "slug": "met-14298-clock",
+    "label": "Clock",
+    "meta": "The American Wing",
+    "source": "https://www.metmuseum.org/art/collection/search/14298",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/14298"
   },
   {
     "file": "assets/cutout-clippings/met-20519-brooch.png",
-    "sourceFile": "assets/real-clippings/met-20519-brooch.png",
     "alphaRatio": 0.09,
-    "bboxArea": 0.257
+    "bboxArea": 0.257,
+    "slug": "met-20519-brooch",
+    "label": "Brooch",
+    "meta": "The American Wing",
+    "source": "https://www.metmuseum.org/art/collection/search/20519",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/20519"
   },
   {
     "file": "assets/cutout-clippings/met-20522-ring.png",
-    "sourceFile": "assets/real-clippings/met-20522-ring.png",
     "alphaRatio": 0.079,
-    "bboxArea": 0.105
+    "bboxArea": 0.105,
+    "slug": "met-20522-ring",
+    "label": "Ring",
+    "meta": "The American Wing",
+    "source": "https://www.metmuseum.org/art/collection/search/20522",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/20522"
   },
   {
     "file": "assets/cutout-clippings/met-39-advertisement-for-norwich-stone-ware-factory.png",
-    "sourceFile": "assets/real-clippings/met-39-advertisement-for-norwich-stone-ware-factory.png",
     "alphaRatio": 0.831,
-    "bboxArea": 0.915
+    "bboxArea": 0.915,
+    "slug": "met-39-advertisement-for-norwich-stone-ware-factory",
+    "label": "Advertisement for Norwich Stone Ware Facto",
+    "meta": "The American Wing",
+    "source": "https://www.metmuseum.org/art/collection/search/39",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/39"
   },
   {
     "file": "assets/cutout-clippings/met-433565-poster-for-raynaud-fr-res.png",
-    "sourceFile": "assets/real-clippings/met-433565-poster-for-raynaud-fr-res.png",
     "alphaRatio": 0.705,
-    "bboxArea": 0.813
+    "bboxArea": 0.813,
+    "slug": "met-433565-poster-for-raynaud-fr-res",
+    "label": "Poster for Raynaud Frères",
+    "meta": "Drawings and Prints",
+    "source": "https://www.metmuseum.org/art/collection/search/433565",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/433565"
   },
   {
     "file": "assets/cutout-clippings/met-548246-viscera-figure-with-human-head-imseti.png",
-    "sourceFile": "assets/real-clippings/met-548246-viscera-figure-with-human-head-imseti.png",
     "alphaRatio": 0.135,
-    "bboxArea": 0.245
+    "bboxArea": 0.245,
+    "slug": "met-548246-viscera-figure-with-human-head-imseti",
+    "label": "Viscera figure with human head (Imseti)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/548246",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/548246"
   },
   {
     "file": "assets/cutout-clippings/met-550814-viscera-figure-with-human-head-imseti.png",
-    "sourceFile": "assets/real-clippings/met-550814-viscera-figure-with-human-head-imseti.png",
     "alphaRatio": 0.354,
-    "bboxArea": 0.756
+    "bboxArea": 0.756,
+    "slug": "met-550814-viscera-figure-with-human-head-imseti",
+    "label": "Viscera figure with human head (Imseti)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/550814",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/550814"
   },
   {
     "file": "assets/cutout-clippings/met-570751-package-of-disorganized-animal-remains-adorned-with-.png",
-    "sourceFile": "assets/real-clippings/met-570751-package-of-disorganized-animal-remains-adorned-with-.png",
     "alphaRatio": 0.249,
-    "bboxArea": 0.391
+    "bboxArea": 0.391,
+    "slug": "met-570751-package-of-disorganized-animal-remains-adorned-with-",
+    "label": "Package of disorganized animal remains ado",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/570751",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/570751"
   },
   {
     "file": "assets/cutout-clippings/met-577416-viscera-figure-with-baboon-head-hapy.png",
-    "sourceFile": "assets/real-clippings/met-577416-viscera-figure-with-baboon-head-hapy.png",
     "alphaRatio": 0.354,
-    "bboxArea": 0.756
+    "bboxArea": 0.756,
+    "slug": "met-577416-viscera-figure-with-baboon-head-hapy",
+    "label": "Viscera figure with baboon head (Hapy)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577416",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577416"
   },
   {
     "file": "assets/cutout-clippings/met-577417-viscera-figure-with-jackal-head-duamutef.png",
-    "sourceFile": "assets/real-clippings/met-577417-viscera-figure-with-jackal-head-duamutef.png",
     "alphaRatio": 0.354,
-    "bboxArea": 0.756
+    "bboxArea": 0.756,
+    "slug": "met-577417-viscera-figure-with-jackal-head-duamutef",
+    "label": "Viscera figure with jackal head (Duamutef)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577417",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577417"
   },
   {
     "file": "assets/cutout-clippings/met-577418-viscera-figure-with-falcoln-head-qebehsenuef.png",
-    "sourceFile": "assets/real-clippings/met-577418-viscera-figure-with-falcoln-head-qebehsenuef.png",
     "alphaRatio": 0.354,
-    "bboxArea": 0.756
+    "bboxArea": 0.756,
+    "slug": "met-577418-viscera-figure-with-falcoln-head-qebehsenuef",
+    "label": "Viscera figure with falcoln head (Qebehsen",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577418",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577418"
   },
   {
     "file": "assets/cutout-clippings/met-577422-viscera-figure-with-baboon-head-hapy.png",
-    "sourceFile": "assets/real-clippings/met-577422-viscera-figure-with-baboon-head-hapy.png",
     "alphaRatio": 0.13,
-    "bboxArea": 0.226
+    "bboxArea": 0.226,
+    "slug": "met-577422-viscera-figure-with-baboon-head-hapy",
+    "label": "Viscera figure with baboon head (Hapy)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577422",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577422"
   },
   {
     "file": "assets/cutout-clippings/met-577423-viscera-figure-with-jackal-head-duamutef.png",
-    "sourceFile": "assets/real-clippings/met-577423-viscera-figure-with-jackal-head-duamutef.png",
     "alphaRatio": 0.127,
-    "bboxArea": 0.229
+    "bboxArea": 0.229,
+    "slug": "met-577423-viscera-figure-with-jackal-head-duamutef",
+    "label": "Viscera figure with jackal head (Duamutef)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577423",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577423"
   },
   {
     "file": "assets/cutout-clippings/met-577428-viscera-figure-with-baboon-head-hapy.png",
-    "sourceFile": "assets/real-clippings/met-577428-viscera-figure-with-baboon-head-hapy.png",
     "alphaRatio": 0.091,
-    "bboxArea": 0.185
+    "bboxArea": 0.185,
+    "slug": "met-577428-viscera-figure-with-baboon-head-hapy",
+    "label": "Viscera figure with baboon head (Hapy)",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577428",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577428"
   },
   {
     "file": "assets/cutout-clippings/met-577430-viscera-figure-with-falcon-head-qebehsenuef.png",
-    "sourceFile": "assets/real-clippings/met-577430-viscera-figure-with-falcon-head-qebehsenuef.png",
     "alphaRatio": 0.081,
-    "bboxArea": 0.132
+    "bboxArea": 0.132,
+    "slug": "met-577430-viscera-figure-with-falcon-head-qebehsenuef",
+    "label": "Viscera figure with falcon head (Qebehsenu",
+    "meta": "Egyptian Art",
+    "source": "https://www.metmuseum.org/art/collection/search/577430",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/577430"
   },
   {
     "file": "assets/cutout-clippings/met-786300-buzz-aldrin-on-the-moon-with-components-of-the-early.png",
-    "sourceFile": "assets/real-clippings/met-786300-buzz-aldrin-on-the-moon-with-components-of-the-early.png",
     "alphaRatio": 0.602,
-    "bboxArea": 0.9
+    "bboxArea": 0.9,
+    "slug": "met-786300-buzz-aldrin-on-the-moon-with-components-of-the-early",
+    "label": "Buzz Aldrin on the Moon with Components of",
+    "meta": "Photographs",
+    "source": "https://www.metmuseum.org/art/collection/search/786300",
+    "credit": "The Metropolitan Museum of Art, public domain",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/786300"
+  },
+  {
+    "slug": "aic-136740-funerary-mask",
+    "label": "Funerary Mask",
+    "meta": "Funerary Object",
+    "file": "assets/cutout-clippings/aic-136740-funerary-mask.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/136740",
+    "imageId": "6ff83986-8938-20c2-c0c3-82f34ae0035f",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-136740-funerary-mask.png",
+    "alphaRatio": 0.311,
+    "bboxArea": 0.48
+  },
+  {
+    "slug": "aic-181740-male-face-mask-chihongo",
+    "label": "Male Face Mask (Chihongo)",
+    "meta": "Mask",
+    "file": "assets/cutout-clippings/aic-181740-male-face-mask-chihongo.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/181740",
+    "imageId": "65010653-87cb-a15c-1803-bca5b6617a75",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-181740-male-face-mask-chihongo.png",
+    "alphaRatio": 0.354,
+    "bboxArea": 0.654
+  },
+  {
+    "slug": "aic-212967-face",
+    "label": "Face",
+    "meta": "Sculpture",
+    "file": "assets/cutout-clippings/aic-212967-face.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/212967",
+    "imageId": "ac383837-c925-af46-0833-f7ac8595a68d",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-212967-face.png",
+    "alphaRatio": 0.329,
+    "bboxArea": 0.472
+  },
+  {
+    "slug": "aic-576-fan",
+    "label": "Fan",
+    "meta": "Costume and Accessories",
+    "file": "assets/cutout-clippings/aic-576-fan.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/576",
+    "imageId": "13ec274d-ce05-b55d-88ee-c716b6b6a5c8",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-576-fan.png",
+    "alphaRatio": 0.237,
+    "bboxArea": 0.413
+  },
+  {
+    "slug": "aic-245-oinochoe-pitcher",
+    "label": "Oinochoe (Pitcher)",
+    "meta": "Vessel",
+    "file": "assets/cutout-clippings/aic-245-oinochoe-pitcher.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/245",
+    "imageId": "229b278b-bbce-c26e-01e6-e33489494317",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-245-oinochoe-pitcher.png",
+    "alphaRatio": 0.255,
+    "bboxArea": 0.491
+  },
+  {
+    "slug": "aic-38666-the-water-fan",
+    "label": "The Water Fan",
+    "meta": "Drawing and Watercolor",
+    "file": "assets/cutout-clippings/aic-38666-the-water-fan.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/38666",
+    "imageId": "1de73bb7-52d6-e099-f4e1-763e201e78fa",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-38666-the-water-fan.png",
+    "alphaRatio": 0.175,
+    "bboxArea": 0.483
+  },
+  {
+    "slug": "aic-15906-man-s-boots",
+    "label": "Man's Boots",
+    "meta": "Costume and Accessories",
+    "file": "assets/cutout-clippings/aic-15906-man-s-boots.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/15906",
+    "imageId": "036bca90-506b-0230-044f-8dcf85c877a0",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-15906-man-s-boots.png",
+    "alphaRatio": 0.42,
+    "bboxArea": 0.68
+  },
+  {
+    "slug": "aic-15910-woman-s-shoes",
+    "label": "Woman's Shoes",
+    "meta": "Costume and Accessories",
+    "file": "assets/cutout-clippings/aic-15910-woman-s-shoes.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/15910",
+    "imageId": "0655410d-43d5-9b3f-4af4-bff8276ce10d",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-15910-woman-s-shoes.png",
+    "alphaRatio": 0.364,
+    "bboxArea": 0.648
+  },
+  {
+    "slug": "aic-19432-qabqabs-bath-clogs",
+    "label": "Qabqabs (Bath Clogs)",
+    "meta": "Textile",
+    "file": "assets/cutout-clippings/aic-19432-qabqabs-bath-clogs.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/19432",
+    "imageId": "3f98b68b-2104-164d-3359-bd3290d15632",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-19432-qabqabs-bath-clogs.png",
+    "alphaRatio": 0.164,
+    "bboxArea": 0.349
+  },
+  {
+    "slug": "aic-19423-folding-shoe-measure",
+    "label": "Folding Shoe Measure",
+    "meta": "Textile",
+    "file": "assets/cutout-clippings/aic-19423-folding-shoe-measure.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/19423",
+    "imageId": "9c30791e-0edd-8cb6-eea8-16854f499bf3",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-19423-folding-shoe-measure.png",
+    "alphaRatio": 0.104,
+    "bboxArea": 0.806
+  },
+  {
+    "slug": "aic-27281-madam-pompadour",
+    "label": "Madam Pompadour",
+    "meta": "Painting",
+    "file": "assets/cutout-clippings/aic-27281-madam-pompadour.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/27281",
+    "imageId": "fdc1a755-ff86-487d-f16b-f03c40a30bee",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-27281-madam-pompadour.png",
+    "alphaRatio": 0.212,
+    "bboxArea": 0.746
+  },
+  {
+    "slug": "aic-135-jar-with-tubular-handles-peonies-endless-knot-pendant-ball",
+    "label": "Jar with Tubular Handles, Peonies, “Endless Knot,” Pendant Balls, and ",
+    "meta": "Vessel",
+    "file": "assets/cutout-clippings/aic-135-jar-with-tubular-handles-peonies-endless-knot-pendant-ball.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/135",
+    "imageId": "abf4b078-b26b-e69c-d689-8aab2d5fa075",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-135-jar-with-tubular-handles-peonies-endless-knot-pendant-ball.png",
+    "alphaRatio": 0.454,
+    "bboxArea": 0.67
+  },
+  {
+    "slug": "aic-68769-vase-vase-trusque-rouleau",
+    "label": "Vase (Vase étrusque à rouleau)",
+    "meta": "Ceramics",
+    "file": "assets/cutout-clippings/aic-68769-vase-vase-trusque-rouleau.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/68769",
+    "imageId": "b6a9355f-aca4-b264-772f-a86ec22731e5",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-68769-vase-vase-trusque-rouleau.png",
+    "alphaRatio": 0.297,
+    "bboxArea": 0.573
+  },
+  {
+    "slug": "aic-151387-vase-with-cover",
+    "label": "Vase with Cover",
+    "meta": "Ceramics",
+    "file": "assets/cutout-clippings/aic-151387-vase-with-cover.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/151387",
+    "imageId": "2a6cb022-d323-bf2c-f5cc-af719f86f444",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-151387-vase-with-cover.png",
+    "alphaRatio": 0.274,
+    "bboxArea": 0.396
+  },
+  {
+    "slug": "aic-10896-vase-vase-oreilles",
+    "label": "Vase (Vase à Oreilles)",
+    "meta": "Ceramics",
+    "file": "assets/cutout-clippings/aic-10896-vase-vase-oreilles.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/10896",
+    "imageId": "96312173-a863-4e4b-434a-4d853c422c7f",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-10896-vase-vase-oreilles.png",
+    "alphaRatio": 0.194,
+    "bboxArea": 0.289
+  },
+  {
+    "slug": "aic-6681-flower-vase-one-of-a-pair",
+    "label": "Flower Vase (one of a pair)",
+    "meta": "Ceramics",
+    "file": "assets/cutout-clippings/aic-6681-flower-vase-one-of-a-pair.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/6681",
+    "imageId": "40e316d0-493c-98d2-cf85-33d1e0a70fa9",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-6681-flower-vase-one-of-a-pair.png",
+    "alphaRatio": 0.255,
+    "bboxArea": 0.489
+  },
+  {
+    "slug": "aic-12229-dragon-handled-amphora",
+    "label": "Dragon-Handled Amphora 三彩双龙耳瓶",
+    "meta": "Decorative Arts",
+    "file": "assets/cutout-clippings/aic-12229-dragon-handled-amphora.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/12229",
+    "imageId": "7f0b217b-a6c0-06ea-cf95-db619df3760a",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-12229-dragon-handled-amphora.png",
+    "alphaRatio": 0.311,
+    "bboxArea": 0.499
+  },
+  {
+    "slug": "aic-33053-rocking-chair",
+    "label": "Rocking Chair",
+    "meta": "Furniture",
+    "file": "assets/cutout-clippings/aic-33053-rocking-chair.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/33053",
+    "imageId": "2a491673-72e1-34a9-8e2a-b45a6e0da51f",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-33053-rocking-chair.png",
+    "alphaRatio": 0.332,
+    "bboxArea": 0.879
+  },
+  {
+    "slug": "aic-121781-chair",
+    "label": "Chair",
+    "meta": "Furniture",
+    "file": "assets/cutout-clippings/aic-121781-chair.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/121781",
+    "imageId": "6482a473-ac30-302b-5ad5-c395376ee545",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-121781-chair.png",
+    "alphaRatio": 0.223,
+    "bboxArea": 0.487
+  },
+  {
+    "slug": "aic-189715-king-vulture",
+    "label": "King Vulture",
+    "meta": "Ceramics",
+    "file": "assets/cutout-clippings/aic-189715-king-vulture.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/189715",
+    "imageId": "4216354e-9c12-4129-a43f-a5c114fb95f1",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-189715-king-vulture.png",
+    "alphaRatio": 0.386,
+    "bboxArea": 0.69
+  },
+  {
+    "slug": "aic-1601-panel-judith-with-the-head-of-holofernes-possibly-from-an",
+    "label": "Panel (Judith with the head of Holofernes, Possibly from an Altar Fron",
+    "meta": "Textile",
+    "file": "assets/cutout-clippings/aic-1601-panel-judith-with-the-head-of-holofernes-possibly-from-an.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/1601",
+    "imageId": "29ca142c-9294-b70b-c443-86b3877f02f9",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-1601-panel-judith-with-the-head-of-holofernes-possibly-from-an.png",
+    "alphaRatio": 0.738,
+    "bboxArea": 0.814
+  },
+  {
+    "slug": "aic-181-amphora-storage-jar",
+    "label": "Amphora (Storage Jar)",
+    "meta": "Vessel",
+    "file": "assets/cutout-clippings/aic-181-amphora-storage-jar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/181",
+    "imageId": "d8fab7c6-8cc9-1c02-18db-0f198775ccc9",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-181-amphora-storage-jar.png",
+    "alphaRatio": 0.293,
+    "bboxArea": 0.418
+  },
+  {
+    "slug": "aic-198337-amphora-storage-jar",
+    "label": "Amphora (Storage Jar)",
+    "meta": "Vessel",
+    "file": "assets/cutout-clippings/aic-198337-amphora-storage-jar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/198337",
+    "imageId": "ea80aeee-859c-9577-af83-1b7fef0bf17c",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-198337-amphora-storage-jar.png",
+    "alphaRatio": 0.422,
+    "bboxArea": 0.678
+  },
+  {
+    "slug": "aic-885-a-mounted-officer",
+    "label": "A Mounted Officer",
+    "meta": "Painting",
+    "file": "assets/cutout-clippings/aic-885-a-mounted-officer.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/885",
+    "imageId": "9c1e2826-e79b-4b4d-73f9-2ba8c8b00180",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-885-a-mounted-officer.png",
+    "alphaRatio": 0.193,
+    "bboxArea": 0.565
+  },
+  {
+    "slug": "aic-81533-the-races-at-longchamp",
+    "label": "The Races at Longchamp",
+    "meta": "Painting",
+    "file": "assets/cutout-clippings/aic-81533-the-races-at-longchamp.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/81533",
+    "imageId": "e9ce5aca-4c34-c8dd-b8a1-91b3e3197211",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-81533-the-races-at-longchamp.png",
+    "alphaRatio": 0.098,
+    "bboxArea": 0.698
+  },
+  {
+    "slug": "aic-145840-cheval-turk",
+    "label": "Cheval Turk",
+    "meta": "Sculpture",
+    "file": "assets/cutout-clippings/aic-145840-cheval-turk.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/145840",
+    "imageId": "536df30f-02c0-972d-2141-9dc4542e3a8c",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-145840-cheval-turk.png",
+    "alphaRatio": 0.219,
+    "bboxArea": 0.412
+  },
+  {
+    "slug": "aic-181145-cup-in-the-form-of-a-horse-and-rider",
+    "label": "Cup in the Form of a Horse and Rider",
+    "meta": "Metalwork",
+    "file": "assets/cutout-clippings/aic-181145-cup-in-the-form-of-a-horse-and-rider.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/181145",
+    "imageId": "1dcb1fd9-8254-8098-586c-e5b117c00871",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-181145-cup-in-the-form-of-a-horse-and-rider.png",
+    "alphaRatio": 0.218,
+    "bboxArea": 0.546
+  },
+  {
+    "slug": "aic-106327-pair-of-rowel-spurs",
+    "label": "Pair of Rowel Spurs",
+    "meta": "Armor",
+    "file": "assets/cutout-clippings/aic-106327-pair-of-rowel-spurs.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/106327",
+    "imageId": "c25a0a3d-d45d-19a5-cb0d-6921e162ca5e",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-106327-pair-of-rowel-spurs.png",
+    "alphaRatio": 0.155,
+    "bboxArea": 0.565
+  },
+  {
+    "slug": "aic-10083-dupondius-coin-portraying-germanicus-caesar",
+    "label": "Dupondius (Coin) Portraying Germanicus Caesar",
+    "meta": "Coin",
+    "file": "assets/cutout-clippings/aic-10083-dupondius-coin-portraying-germanicus-caesar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/10083",
+    "imageId": "09c7e9d9-7c3e-fe62-d236-108d44710612",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-10083-dupondius-coin-portraying-germanicus-caesar.png",
+    "alphaRatio": 0.403,
+    "bboxArea": 0.641
+  },
+  {
+    "slug": "aic-158-pelike-storage-jar",
+    "label": "Pelike (Storage Jar)",
+    "meta": "Vessel",
+    "file": "assets/cutout-clippings/aic-158-pelike-storage-jar.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/158",
+    "imageId": "48d485ec-6102-b7ec-062c-8b351055ca5f",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-158-pelike-storage-jar.png",
+    "alphaRatio": 0.352,
+    "bboxArea": 0.471
+  },
+  {
+    "slug": "aic-40724-the-offering-of-the-boar-s-head-from-the-story-of-meleager",
+    "label": "The Offering of the Boar's Head from The Story of Meleager and Atalant",
+    "meta": "Textile",
+    "file": "assets/cutout-clippings/aic-40724-the-offering-of-the-boar-s-head-from-the-story-of-meleager.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/40724",
+    "imageId": "fadf6188-07a0-d37a-f119-b0b9fc33c902",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-40724-the-offering-of-the-boar-s-head-from-the-story-of-meleager.png",
+    "alphaRatio": 0.187,
+    "bboxArea": 0.836
+  },
+  {
+    "slug": "aic-896-the-road-to-market",
+    "label": "The Road to Market",
+    "meta": "Painting",
+    "file": "assets/cutout-clippings/aic-896-the-road-to-market.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/896",
+    "imageId": "6aaa3537-abbf-f49e-877f-4d8e8e4d50c2",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-896-the-road-to-market.png",
+    "alphaRatio": 0.123,
+    "bboxArea": 0.585
+  },
+  {
+    "slug": "aic-9028-torso-from-a-doll",
+    "label": "Torso From a Doll",
+    "meta": "Sculpture",
+    "file": "assets/cutout-clippings/aic-9028-torso-from-a-doll.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/9028",
+    "imageId": "9bd5c183-5ad3-bf94-5e90-182b1069209f",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-9028-torso-from-a-doll.png",
+    "alphaRatio": 0.177,
+    "bboxArea": 0.281
+  },
+  {
+    "slug": "aic-103045-dolls",
+    "label": "Dolls",
+    "meta": "Decorative Arts",
+    "file": "assets/cutout-clippings/aic-103045-dolls.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/103045",
+    "imageId": "8f99b50d-8f2f-fb8f-ba69-12cf240bffb9",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-103045-dolls.png",
+    "alphaRatio": 0.455,
+    "bboxArea": 0.648
+  },
+  {
+    "slug": "aic-103046-dolls",
+    "label": "Dolls",
+    "meta": "Decorative Arts",
+    "file": "assets/cutout-clippings/aic-103046-dolls.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/103046",
+    "imageId": "f5b62133-16a0-7188-56b9-cad4290f3bcc",
+    "publicDomain": true,
+    "sourceFile": "assets/real-clippings/aic-103046-dolls.png",
+    "alphaRatio": 0.448,
+    "bboxArea": 0.698
   }
 ]
