@@ -627,7 +627,6 @@ document.getElementById('smallerBtn').onclick = () => changeSelected({scale:-.08
 document.getElementById('frontBtn').onclick = () => changeSelected({front:true});
 document.getElementById('backBtn').onclick = () => changeSelected({back:true});
 document.getElementById('deleteBtn').onclick = () => changeSelected({del:true});
-document.getElementById('textBtn').onclick = addTextScrap;
 document.getElementById('undoBtn').onclick = undoLast;
 document.getElementById('clearBtn').onclick = clearBoard;
 document.getElementById('newPackBtn').onclick = async () => { clearBoard(); await renderTray(); };

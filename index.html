@@ -18,7 +18,7 @@
   <meta name="twitter:description" content="A daily collage game powered by @pulp.sm." />
   <meta name="twitter:image" content="https://clippingclubsm.com/og-image.png?v=1" />
   <link rel="canonical" href="https://clippingclubsm.com/" />
-  <link rel="stylesheet" href="styles.css?v=tools-1" />
+  <link rel="stylesheet" href="styles.css?v=tray-shuffle-1" />
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -29,7 +29,6 @@
     </div>
     <nav>
       <button id="newPackBtn">Reload today</button>
-      <button id="shuffleTrayBtn">Shuffle tray</button>
       <button id="exportBtn">Export artifact</button>
       <button id="clearBtn">Clear board</button>
     </nav>
@@ -54,7 +53,10 @@
             <p class="kicker">Packet 404-A</p>
             <h2>Clippings</h2>
           </div>
-          <p><b id="usedCount">0</b>/<b id="limitCount">15</b> placed</p>
+          <div class="tray-actions">
+            <p><b id="usedCount">0</b>/<b id="limitCount">15</b> placed</p>
+            <button id="shuffleTrayBtn" type="button">Shuffle tray</button>
+          </div>
         </div>
         <div id="clipTray" class="clip-tray"></div>
       </aside>
@@ -70,7 +72,6 @@
             <button id="rotateRightBtn" title="Rotate selected right">↻</button>
             <button id="biggerBtn" title="Make selected bigger">＋</button>
             <button id="smallerBtn" title="Make selected smaller">－</button>
-            <button id="textBtn" title="Add a text scrap">Text</button>
             <button id="undoBtn" title="Undo last change">Undo</button>
             <button id="frontBtn" title="Bring selected forward">Front</button>
             <button id="backBtn" title="Send selected backward">Back</button>
@@ -107,6 +108,6 @@
     <button class="clip" type="button"></button>
   </template>
 
-  <script src="app.js?v=tools-1"></script>
+  <script src="app.js?v=tray-shuffle-1"></script>
 </body>
 </html>
