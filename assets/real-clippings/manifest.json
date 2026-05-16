@@ -1808,5 +1808,255 @@
     "sourceUrl": "https://www.artic.edu/artworks/9119",
     "imageId": "4738cfd5-9477-6dad-da96-a9e6699864e2",
     "publicDomain": true
+  },
+  {
+    "slug": "aic-594-ring-with-a-scarab-bezel",
+    "label": "Ring with a Scarab Bezel",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-594-ring-with-a-scarab-bezel.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/594",
+    "imageId": "d9067d6e-e133-705c-cf53-528c035a5201",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-840-earring",
+    "label": "Earring",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-840-earring.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/840",
+    "imageId": "b5fd789f-fc57-5569-3785-e167d144c054",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-807-necklace-with-pendant",
+    "label": "Necklace with Pendant",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-807-necklace-with-pendant.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/807",
+    "imageId": "52bacfeb-ef40-05ae-1f0d-dd3bbf320570",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-8630-bracelet",
+    "label": "Bracelet",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-8630-bracelet.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/8630",
+    "imageId": "fff90b34-60a5-b735-17dc-99d55064d3df",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-841-earring",
+    "label": "Earring",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-841-earring.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/841",
+    "imageId": "1e78a70e-ad01-6ddf-fadb-19bc4b706f7e",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-157117-circular-pendant",
+    "label": "Circular Pendant",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-157117-circular-pendant.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/157117",
+    "imageId": "43215748-589c-4615-f0cd-2b6ac8505fc6",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119270-pendant-shaped-as-a-dragon",
+    "label": "Pendant Shaped as a Dragon",
+    "meta": "Metalwork",
+    "src": "assets/real-clippings/aic-119270-pendant-shaped-as-a-dragon.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119270",
+    "imageId": "e6a41ca2-5678-34ae-1366-dc51d352ff02",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119874-cameo-of-venus-and-cupid-probably-a-hat-badge-mounted-as-a",
+    "label": "Cameo of Venus and Cupid, Probably a Hat Badge Mounted as a Pendant",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119874-cameo-of-venus-and-cupid-probably-a-hat-badge-mounted-as-a.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119874",
+    "imageId": "928ee537-1c2d-c0d9-b284-5587df83736b",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119547-pendant-cross",
+    "label": "Pendant Cross",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119547-pendant-cross.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119547",
+    "imageId": "c063bcc6-d11d-5d3e-7eb4-9d31724632e7",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119327-pendant-with-agnus-dei-lamb-of-god",
+    "label": "Pendant with Agnus Dei (Lamb of God)",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119327-pendant-with-agnus-dei-lamb-of-god.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119327",
+    "imageId": "ae425786-d87a-ad59-d556-ec118ed81c92",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119663-pendant-shaped-as-a-mermaid",
+    "label": "Pendant Shaped as a Mermaid",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119663-pendant-shaped-as-a-mermaid.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119663",
+    "imageId": "ae6a6a19-4dba-0b51-e792-03d5729b0b01",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-8088-pendant-in-the-form-of-a-frog",
+    "label": "Pendant in the Form of a Frog",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-8088-pendant-in-the-form-of-a-frog.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/8088",
+    "imageId": "fab41922-656e-48fd-9c63-6d697ef5e817",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119739-pendant-shaped-as-a-dog",
+    "label": "Pendant Shaped as a Dog",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119739-pendant-shaped-as-a-dog.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119739",
+    "imageId": "ee235de3-01b8-d7fd-17dc-605b150904f8",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119744-pendant-cross",
+    "label": "Pendant Cross",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119744-pendant-cross.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119744",
+    "imageId": "65418b12-1359-baa2-6df8-bd12f0c8a0ec",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-936-bracelet",
+    "label": "Bracelet",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-936-bracelet.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/936",
+    "imageId": "b32d62e3-0b23-f470-dd8d-bbab4d60ea9a",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119959-pendant-cross",
+    "label": "Pendant Cross",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119959-pendant-cross.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119959",
+    "imageId": "343008df-fccf-a2a7-d381-a31e4f16f38f",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-111809-cameo-portraying-emperor-claudius-as-jupiter",
+    "label": "Cameo Portraying Emperor Claudius as Jupiter",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-111809-cameo-portraying-emperor-claudius-as-jupiter.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/111809",
+    "imageId": "8c058837-aff8-30db-3e3f-cd251cd3e19c",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-61366-the-brooch-eva-mudocci",
+    "label": "The Brooch. Eva Mudocci",
+    "meta": "Print",
+    "src": "assets/real-clippings/aic-61366-the-brooch-eva-mudocci.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/61366",
+    "imageId": "78387b3f-e923-16cc-8b5a-55402278498d",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-119665-brooch-shaped-as-a-bow",
+    "label": "Brooch Shaped as a Bow",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-119665-brooch-shaped-as-a-bow.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/119665",
+    "imageId": "3726d24f-576c-6263-67f0-83b77cd211c6",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-196453-bow-fibula-brooch",
+    "label": "Bow Fibula (Brooch)",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-196453-bow-fibula-brooch.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/196453",
+    "imageId": "109fe4e2-d941-8ca9-8494-0ca5dac50b56",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-196460-leech-fibula-brooch",
+    "label": "Leech Fibula (Brooch)",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-196460-leech-fibula-brooch.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/196460",
+    "imageId": "b7eb2bcf-7ebd-bb59-6056-19e604b8414c",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-73173-brooch",
+    "label": "Brooch",
+    "meta": "Metalwork",
+    "src": "assets/real-clippings/aic-73173-brooch.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/73173",
+    "imageId": "ac75cab5-ecd1-e89f-1329-afddca6dcf0b",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-38846-cameo-pendant-brooch",
+    "label": "Cameo Pendant Brooch",
+    "meta": "Metalwork",
+    "src": "assets/real-clippings/aic-38846-cameo-pendant-brooch.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/38846",
+    "imageId": "303bcab9-e4b7-22cb-8137-c8961ccbe5ed",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-14702-brooch",
+    "label": "Brooch",
+    "meta": "Metalwork",
+    "src": "assets/real-clippings/aic-14702-brooch.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/14702",
+    "imageId": "499b8a6b-23de-223a-a7c4-12a287c95e21",
+    "publicDomain": true
+  },
+  {
+    "slug": "aic-19420-finger-ring-depicting-aphrodite",
+    "label": "Finger Ring Depicting Aphrodite",
+    "meta": "Costume and Accessories",
+    "src": "assets/real-clippings/aic-19420-finger-ring-depicting-aphrodite.png",
+    "source": "Art Institute of Chicago API",
+    "sourceUrl": "https://www.artic.edu/artworks/19420",
+    "imageId": "b69335b9-f8d4-04b8-4cca-0efe8dd340e8",
+    "publicDomain": true
   }
 ]

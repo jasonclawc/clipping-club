@@ -148,7 +148,22 @@
     "aic-87657-chous-toy-pitcher",
     "aic-156887-table-clock",
     "aic-259-skyphos-drinking-cup",
-    "aic-618-the-arts-ewer-and-basin"
+    "aic-618-the-arts-ewer-and-basin",
+    "aic-161-skyphos-drinking-cup",
+    "aic-15933-pair-of-child-s-mocassins",
+    "aic-90996-clock",
+    "aic-50203-pyxis-container-for-personal-objects",
+    "aic-155-mastoid-drinking-cup",
+    "aic-91620-portrait-vessel",
+    "aic-281-stemless-kylix-drinking-cup",
+    "aic-24243-woman-s-shoes",
+    "aic-61366-the-brooch-eva-mudocci",
+    "aic-91495-vessel",
+    "aic-194394-wall-clock",
+    "aic-18667-portrait-of-berthe-morisot-with-a-fan",
+    "aic-16146-equestrienne-at-the-cirque-fernando",
+    "aic-5025-aryballos-cointainer-for-oil",
+    "aic-143637-toy-cart-with-lion-charging-a-warrior-on-the-side-and-whee"
   ],
   "packs": {
     "2026-05-13": [
@@ -320,6 +335,23 @@
       "aic-22194-hermine-david",
       "aic-20684-paris-street-rainy-day",
       "aic-19083-shoe"
+    ],
+    "2026-05-17": [
+      "aic-161-skyphos-drinking-cup",
+      "aic-15933-pair-of-child-s-mocassins",
+      "aic-90996-clock",
+      "aic-50203-pyxis-container-for-personal-objects",
+      "aic-155-mastoid-drinking-cup",
+      "aic-91620-portrait-vessel",
+      "aic-281-stemless-kylix-drinking-cup",
+      "aic-24243-woman-s-shoes",
+      "aic-61366-the-brooch-eva-mudocci",
+      "aic-91495-vessel",
+      "aic-194394-wall-clock",
+      "aic-18667-portrait-of-berthe-morisot-with-a-fan",
+      "aic-16146-equestrienne-at-the-cirque-fernando",
+      "aic-5025-aryballos-cointainer-for-oil",
+      "aic-143637-toy-cart-with-lion-charging-a-warrior-on-the-side-and-whee"
     ]
   }
 }
